@@ -4,8 +4,14 @@ import { basename, dirname, extname } from 'path';
 import { sync } from 'glob';
 import { from } from 'ix/iterable'
 import { map, filter } from 'ix/iterable/operators'
-const commandline = require('./node_modules/appcenter-cli/dist/util/commandline/option-decorators');
+const commandline = require('../node_modules/appcenter-cli/dist/util/commandline/option-decorators');
 const nukeSpec: any = {};
+
+export interface command{
+    commandPath:string[];
+    helpText:string;
+    type:string;
+}
 
 // const commands = sync('./node_modules/appcenter-cli/dist/commands/**/*.js', { absolute: true });
 const commands = sync('./node_modules/appcenter-cli/dist/commands/codepush/release.js', { absolute: true });
@@ -14,7 +20,6 @@ for (const { path, command } of from(commands).pipe(map(path => ({ path, module:
     const p = path.split('commands');
     const commandPath = p[p.length-1].substring(1).split('/').map(z => basename(z , '.js'));
     console.log(commandPath);
-    // const commandLine = 
     console.log(commandline.getClassHelpText(command));
     console.log(commandline.getOptionsDescription(command.prototype));
     // console.log(command, Reflect.getPrototypeOf(command), Reflect.getMetadataKeys(Reflect.getPrototypeOf(command)));
