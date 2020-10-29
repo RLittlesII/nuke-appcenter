@@ -1,21 +1,20 @@
 import 'reflect-metadata'
-import { readdir, writeFileSync } from 'fs';
-import { basename, dirname, extname } from 'path';
-import { sync } from 'glob';
-import { from } from 'ix/iterable';
-import { map, filter } from 'ix/iterable/operators';
-import { nukeSchema } from './schema';
+import {readdir, writeFileSync} from 'fs';
+import {basename, dirname, extname, resolve} from 'path';
+import {sync} from 'glob';
+import {from} from 'ix/iterable';
+import {map, filter} from 'ix/iterable/operators';
+import {nukeSchema} from './schema';
 
 const commandline = require('../node_modules/appcenter-cli/dist/util/commandline/option-decorators');
-const nukeSpec: any = {};
 
-export interface command{
-    commandPath:string[];
-    helpText:string;
-    options:[];
+export interface command {
+    commandPath: string[];
+    helpText: string;
+    options: Record<string, commandOption>;
 }
 
-export interface commandOption{
+export interface commandOption {
     common: boolean;
     required: boolean;
     hasArg: boolean;
@@ -25,26 +24,74 @@ export interface commandOption{
     longName: string;
 }
 
-const files = sync('./node_modules/appcenter-cli/dist/commands/**/*.js', { absolute: true });
+const files = sync('./node_modules/appcenter-cli/dist/commands/**/*.js', {absolute: true});
 
-var commands:command[] = new Array() ;
+const spec: nukeSchema = {
+    name: "AppCenter",
+    officialUrl: "https://appcenter.ms",
+    pathExecutable: "appcenter-cli",
+    references: [],
+    commonTaskPropertySets: [],
+    tasks: []
+};
 
-for (const { path, command } of from(files).pipe(map(path => ({ path, module: require(path) })), filter(z => !!z.module.default), map(({ module, path }) => ({ path, command: module.default })))) {
+var commands: command[] = [];
+
+for (const {path, command} of from(files)
+    .pipe(
+        map(path => ({
+            path,
+            module: require(path)
+        })),
+        filter(z => !!z.module.default),
+        map(({module, path}) => ({path, command: module.default}))
+    )) {
     const p = path.split('commands');
-    const commandPath = p[p.length-1].substring(1).split('/').map(z => basename(z , '.js'));
+    const commandPath = p[p.length - 1].substring(1).split('/').map(z => basename(z, '.js'));
     console.log(commandPath);
     console.log(commandline.getClassHelpText(command));
     console.log(commandline.getOptionsDescription(command.prototype));
 
-    var commandDefinition : command = {
+    if(commandPath.some(x => x.includes("-"))){
+        continue;
+    }
+    commands.push({
         commandPath: commandPath,
         helpText: commandline.getClassHelpText(command),
         options: commandline.getOptionsDescription(command.prototype)
+    });
+}
+
+for(const command of commands){
+    var commonOptions = Object.values(command.options).filter(x => x.common);
+    
+    for(const option of commonOptions){
+
+        spec.commonTaskPropertySets.push({
+            name: option.longName,
+            type: option.defaultValue,
+            format: option.longName,
+            help: option.helpText
+        });
     }
 
-    commands.push(commandDefinition);
-} 
+    spec.tasks.push({
+        help: command.helpText,
+        postfix: command.commandPath.map(x => x[0].toUpperCase() + x.substring(1)).join(""),
+        commonPropertySets: [],
+        definiteArgument: getDefiniteArgument(command),
+        settingsClass: {
+            properties: []
+        }
+    });
+}
 
-writeFileSync('./nuke.spec.json', JSON.stringify(commands));
+function getDefiniteArgument(command: command){
+    return command.commandPath.join(" ");
+}
+
+writeFileSync(resolve(__dirname, './nuke.spec.json'), JSON.stringify(commands));
+
+writeFileSync (resolve(__dirname, '../spec/AppCenterCli.json'), JSON.stringify(spec, null, 4));
 
 // console.log(commands[0]);

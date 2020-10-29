@@ -1,0 +1,3764 @@
+{
+    "name": "AppCenter",
+    "officialUrl": "https://appcenter.ms",
+    "pathExecutable": "appcenter-cli",
+    "references": [],
+    "commonTaskPropertySets": [
+        {
+            "name": "debug",
+            "format": "debug",
+            "help": "Display extra output for debugging"
+        },
+        {
+            "name": "token",
+            "format": "token",
+            "help": "API token"
+        },
+        {
+            "name": "env",
+            "format": "env",
+            "help": "Environment when using API token"
+        },
+        {
+            "name": "help",
+            "format": "help",
+            "help": "Display help for current command"
+        },
+        {
+            "name": "quiet",
+            "format": "quiet",
+            "help": "Auto-confirm any prompts without waiting for input"
+        },
+        {
+            "name": "version",
+            "format": "version",
+            "help": "Display appcenter version"
+        },
+        {
+            "name": "disable-telemetry",
+            "format": "disable-telemetry",
+            "help": "Disable telemetry for this command"
+        },
+        {
+            "name": "debug",
+            "format": "debug",
+            "help": "Display extra output for debugging"
+        },
+        {
+            "name": "output",
+            "format": "output",
+            "help": "Output format: json"
+        },
+        {
+            "name": "token",
+            "format": "token",
+            "help": "API token"
+        },
+        {
+            "name": "env",
+            "format": "env",
+            "help": "Environment when using API token"
+        },
+        {
+            "name": "help",
+            "format": "help",
+            "help": "Display help for current command"
+        },
+        {
+            "name": "quiet",
+            "format": "quiet",
+            "help": "Auto-confirm any prompts without waiting for input"
+        },
+        {
+            "name": "version",
+            "format": "version",
+            "help": "Display appcenter version"
+        },
+        {
+            "name": "disable-telemetry",
+            "format": "disable-telemetry",
+            "help": "Disable telemetry for this command"
+        },
+        {
+            "name": "debug",
+            "format": "debug",
+            "help": "Display extra output for debugging"
+        },
+        {
+            "name": "token",
+            "format": "token",
+            "help": "API token"
+        },
+        {
+            "name": "env",
+            "format": "env",
+            "help": "Environment when using API token"
+        },
+        {
+            "name": "help",
+            "format": "help",
+            "help": "Display help for current command"
+        },
+        {
+            "name": "quiet",
+            "format": "quiet",
+            "help": "Auto-confirm any prompts without waiting for input"
+        },
+        {
+            "name": "version",
+            "format": "version",
+            "help": "Display appcenter version"
+        },
+        {
+            "name": "disable-telemetry",
+            "format": "disable-telemetry",
+            "help": "Disable telemetry for this command"
+        },
+        {
+            "name": "debug",
+            "format": "debug",
+            "help": "Display extra output for debugging"
+        },
+        {
+            "name": "token",
+            "format": "token",
+            "help": "API token"
+        },
+        {
+            "name": "env",
+            "format": "env",
+            "help": "Environment when using API token"
+        },
+        {
+            "name": "help",
+            "format": "help",
+            "help": "Display help for current command"
+        },
+        {
+            "name": "quiet",
+            "format": "quiet",
+            "help": "Auto-confirm any prompts without waiting for input"
+        },
+        {
+            "name": "version",
+            "format": "version",
+            "help": "Display appcenter version"
+        },
+        {
+            "name": "disable-telemetry",
+            "format": "disable-telemetry",
+            "help": "Disable telemetry for this command"
+        },
+        {
+            "name": "debug",
+            "format": "debug",
+            "help": "Display extra output for debugging"
+        },
+        {
+            "name": "output",
+            "format": "output",
+            "help": "Output format: json"
+        },
+        {
+            "name": "token",
+            "format": "token",
+            "help": "API token"
+        },
+        {
+            "name": "env",
+            "format": "env",
+            "help": "Environment when using API token"
+        },
+        {
+            "name": "help",
+            "format": "help",
+            "help": "Display help for current command"
+        },
+        {
+            "name": "quiet",
+            "format": "quiet",
+            "help": "Auto-confirm any prompts without waiting for input"
+        },
+        {
+            "name": "version",
+            "format": "version",
+            "help": "Display appcenter version"
+        },
+        {
+            "name": "disable-telemetry",
+            "format": "disable-telemetry",
+            "help": "Disable telemetry for this command"
+        },
+        {
+            "name": "debug",
+            "format": "debug",
+            "help": "Display extra output for debugging"
+        },
+        {
+            "name": "output",
+            "format": "output",
+            "help": "Output format: json"
+        },
+        {
+            "name": "token",
+            "format": "token",
+            "help": "API token"
+        },
+        {
+            "name": "env",
+            "format": "env",
+            "help": "Environment when using API token"
+        },
+        {
+            "name": "help",
+            "format": "help",
+            "help": "Display help for current command"
+        },
+        {
+            "name": "quiet",
+            "format": "quiet",
+            "help": "Auto-confirm any prompts without waiting for input"
+        },
+        {
+            "name": "version",
+            "format": "version",
+            "help": "Display appcenter version"
+        },
+        {
+            "name": "disable-telemetry",
+            "format": "disable-telemetry",
+            "help": "Disable telemetry for this command"
+        },
+        {
+            "name": "debug",
+            "format": "debug",
+            "help": "Display extra output for debugging"
+        },
+        {
+            "name": "output",
+            "format": "output",
+            "help": "Output format: json"
+        },
+        {
+            "name": "token",
+            "format": "token",
+            "help": "API token"
+        },
+        {
+            "name": "env",
+            "format": "env",
+            "help": "Environment when using API token"
+        },
+        {
+            "name": "help",
+            "format": "help",
+            "help": "Display help for current command"
+        },
+        {
+            "name": "quiet",
+            "format": "quiet",
+            "help": "Auto-confirm any prompts without waiting for input"
+        },
+        {
+            "name": "version",
+            "format": "version",
+            "help": "Display appcenter version"
+        },
+        {
+            "name": "disable-telemetry",
+            "format": "disable-telemetry",
+            "help": "Disable telemetry for this command"
+        },
+        {
+            "name": "debug",
+            "format": "debug",
+            "help": "Display extra output for debugging"
+        },
+        {
+            "name": "output",
+            "format": "output",
+            "help": "Output format: json"
+        },
+        {
+            "name": "token",
+            "format": "token",
+            "help": "API token"
+        },
+        {
+            "name": "env",
+            "format": "env",
+            "help": "Environment when using API token"
+        },
+        {
+            "name": "help",
+            "format": "help",
+            "help": "Display help for current command"
+        },
+        {
+            "name": "quiet",
+            "format": "quiet",
+            "help": "Auto-confirm any prompts without waiting for input"
+        },
+        {
+            "name": "version",
+            "format": "version",
+            "help": "Display appcenter version"
+        },
+        {
+            "name": "disable-telemetry",
+            "format": "disable-telemetry",
+            "help": "Disable telemetry for this command"
+        },
+        {
+            "name": "debug",
+            "format": "debug",
+            "help": "Display extra output for debugging"
+        },
+        {
+            "name": "output",
+            "format": "output",
+            "help": "Output format: json"
+        },
+        {
+            "name": "token",
+            "format": "token",
+            "help": "API token"
+        },
+        {
+            "name": "env",
+            "format": "env",
+            "help": "Environment when using API token"
+        },
+        {
+            "name": "help",
+            "format": "help",
+            "help": "Display help for current command"
+        },
+        {
+            "name": "quiet",
+            "format": "quiet",
+            "help": "Auto-confirm any prompts without waiting for input"
+        },
+        {
+            "name": "version",
+            "format": "version",
+            "help": "Display appcenter version"
+        },
+        {
+            "name": "disable-telemetry",
+            "format": "disable-telemetry",
+            "help": "Disable telemetry for this command"
+        },
+        {
+            "name": "debug",
+            "format": "debug",
+            "help": "Display extra output for debugging"
+        },
+        {
+            "name": "output",
+            "format": "output",
+            "help": "Output format: json"
+        },
+        {
+            "name": "token",
+            "format": "token",
+            "help": "API token"
+        },
+        {
+            "name": "env",
+            "format": "env",
+            "help": "Environment when using API token"
+        },
+        {
+            "name": "help",
+            "format": "help",
+            "help": "Display help for current command"
+        },
+        {
+            "name": "quiet",
+            "format": "quiet",
+            "help": "Auto-confirm any prompts without waiting for input"
+        },
+        {
+            "name": "version",
+            "format": "version",
+            "help": "Display appcenter version"
+        },
+        {
+            "name": "disable-telemetry",
+            "format": "disable-telemetry",
+            "help": "Disable telemetry for this command"
+        },
+        {
+            "name": "debug",
+            "format": "debug",
+            "help": "Display extra output for debugging"
+        },
+        {
+            "name": "output",
+            "format": "output",
+            "help": "Output format: json"
+        },
+        {
+            "name": "token",
+            "format": "token",
+            "help": "API token"
+        },
+        {
+            "name": "env",
+            "format": "env",
+            "help": "Environment when using API token"
+        },
+        {
+            "name": "help",
+            "format": "help",
+            "help": "Display help for current command"
+        },
+        {
+            "name": "quiet",
+            "format": "quiet",
+            "help": "Auto-confirm any prompts without waiting for input"
+        },
+        {
+            "name": "version",
+            "format": "version",
+            "help": "Display appcenter version"
+        },
+        {
+            "name": "disable-telemetry",
+            "format": "disable-telemetry",
+            "help": "Disable telemetry for this command"
+        },
+        {
+            "name": "debug",
+            "format": "debug",
+            "help": "Display extra output for debugging"
+        },
+        {
+            "name": "output",
+            "format": "output",
+            "help": "Output format: json"
+        },
+        {
+            "name": "token",
+            "format": "token",
+            "help": "API token"
+        },
+        {
+            "name": "env",
+            "format": "env",
+            "help": "Environment when using API token"
+        },
+        {
+            "name": "help",
+            "format": "help",
+            "help": "Display help for current command"
+        },
+        {
+            "name": "quiet",
+            "format": "quiet",
+            "help": "Auto-confirm any prompts without waiting for input"
+        },
+        {
+            "name": "version",
+            "format": "version",
+            "help": "Display appcenter version"
+        },
+        {
+            "name": "disable-telemetry",
+            "format": "disable-telemetry",
+            "help": "Disable telemetry for this command"
+        },
+        {
+            "name": "debug",
+            "format": "debug",
+            "help": "Display extra output for debugging"
+        },
+        {
+            "name": "output",
+            "format": "output",
+            "help": "Output format: json"
+        },
+        {
+            "name": "token",
+            "format": "token",
+            "help": "API token"
+        },
+        {
+            "name": "env",
+            "format": "env",
+            "help": "Environment when using API token"
+        },
+        {
+            "name": "help",
+            "format": "help",
+            "help": "Display help for current command"
+        },
+        {
+            "name": "quiet",
+            "format": "quiet",
+            "help": "Auto-confirm any prompts without waiting for input"
+        },
+        {
+            "name": "version",
+            "format": "version",
+            "help": "Display appcenter version"
+        },
+        {
+            "name": "disable-telemetry",
+            "format": "disable-telemetry",
+            "help": "Disable telemetry for this command"
+        },
+        {
+            "name": "debug",
+            "format": "debug",
+            "help": "Display extra output for debugging"
+        },
+        {
+            "name": "output",
+            "format": "output",
+            "help": "Output format: json"
+        },
+        {
+            "name": "token",
+            "format": "token",
+            "help": "API token"
+        },
+        {
+            "name": "env",
+            "format": "env",
+            "help": "Environment when using API token"
+        },
+        {
+            "name": "help",
+            "format": "help",
+            "help": "Display help for current command"
+        },
+        {
+            "name": "quiet",
+            "format": "quiet",
+            "help": "Auto-confirm any prompts without waiting for input"
+        },
+        {
+            "name": "version",
+            "format": "version",
+            "help": "Display appcenter version"
+        },
+        {
+            "name": "disable-telemetry",
+            "format": "disable-telemetry",
+            "help": "Disable telemetry for this command"
+        },
+        {
+            "name": "debug",
+            "format": "debug",
+            "help": "Display extra output for debugging"
+        },
+        {
+            "name": "output",
+            "format": "output",
+            "help": "Output format: json"
+        },
+        {
+            "name": "token",
+            "format": "token",
+            "help": "API token"
+        },
+        {
+            "name": "env",
+            "format": "env",
+            "help": "Environment when using API token"
+        },
+        {
+            "name": "help",
+            "format": "help",
+            "help": "Display help for current command"
+        },
+        {
+            "name": "quiet",
+            "format": "quiet",
+            "help": "Auto-confirm any prompts without waiting for input"
+        },
+        {
+            "name": "version",
+            "format": "version",
+            "help": "Display appcenter version"
+        },
+        {
+            "name": "disable-telemetry",
+            "format": "disable-telemetry",
+            "help": "Disable telemetry for this command"
+        },
+        {
+            "name": "debug",
+            "format": "debug",
+            "help": "Display extra output for debugging"
+        },
+        {
+            "name": "output",
+            "format": "output",
+            "help": "Output format: json"
+        },
+        {
+            "name": "token",
+            "format": "token",
+            "help": "API token"
+        },
+        {
+            "name": "env",
+            "format": "env",
+            "help": "Environment when using API token"
+        },
+        {
+            "name": "help",
+            "format": "help",
+            "help": "Display help for current command"
+        },
+        {
+            "name": "quiet",
+            "format": "quiet",
+            "help": "Auto-confirm any prompts without waiting for input"
+        },
+        {
+            "name": "version",
+            "format": "version",
+            "help": "Display appcenter version"
+        },
+        {
+            "name": "disable-telemetry",
+            "format": "disable-telemetry",
+            "help": "Disable telemetry for this command"
+        },
+        {
+            "name": "debug",
+            "format": "debug",
+            "help": "Display extra output for debugging"
+        },
+        {
+            "name": "output",
+            "format": "output",
+            "help": "Output format: json"
+        },
+        {
+            "name": "token",
+            "format": "token",
+            "help": "API token"
+        },
+        {
+            "name": "env",
+            "format": "env",
+            "help": "Environment when using API token"
+        },
+        {
+            "name": "help",
+            "format": "help",
+            "help": "Display help for current command"
+        },
+        {
+            "name": "quiet",
+            "format": "quiet",
+            "help": "Auto-confirm any prompts without waiting for input"
+        },
+        {
+            "name": "version",
+            "format": "version",
+            "help": "Display appcenter version"
+        },
+        {
+            "name": "disable-telemetry",
+            "format": "disable-telemetry",
+            "help": "Disable telemetry for this command"
+        },
+        {
+            "name": "debug",
+            "format": "debug",
+            "help": "Display extra output for debugging"
+        },
+        {
+            "name": "output",
+            "format": "output",
+            "help": "Output format: json"
+        },
+        {
+            "name": "token",
+            "format": "token",
+            "help": "API token"
+        },
+        {
+            "name": "env",
+            "format": "env",
+            "help": "Environment when using API token"
+        },
+        {
+            "name": "help",
+            "format": "help",
+            "help": "Display help for current command"
+        },
+        {
+            "name": "quiet",
+            "format": "quiet",
+            "help": "Auto-confirm any prompts without waiting for input"
+        },
+        {
+            "name": "version",
+            "format": "version",
+            "help": "Display appcenter version"
+        },
+        {
+            "name": "disable-telemetry",
+            "format": "disable-telemetry",
+            "help": "Disable telemetry for this command"
+        },
+        {
+            "name": "debug",
+            "format": "debug",
+            "help": "Display extra output for debugging"
+        },
+        {
+            "name": "output",
+            "format": "output",
+            "help": "Output format: json"
+        },
+        {
+            "name": "token",
+            "format": "token",
+            "help": "API token"
+        },
+        {
+            "name": "env",
+            "format": "env",
+            "help": "Environment when using API token"
+        },
+        {
+            "name": "help",
+            "format": "help",
+            "help": "Display help for current command"
+        },
+        {
+            "name": "quiet",
+            "format": "quiet",
+            "help": "Auto-confirm any prompts without waiting for input"
+        },
+        {
+            "name": "version",
+            "format": "version",
+            "help": "Display appcenter version"
+        },
+        {
+            "name": "disable-telemetry",
+            "format": "disable-telemetry",
+            "help": "Disable telemetry for this command"
+        },
+        {
+            "name": "debug",
+            "format": "debug",
+            "help": "Display extra output for debugging"
+        },
+        {
+            "name": "output",
+            "format": "output",
+            "help": "Output format: json"
+        },
+        {
+            "name": "token",
+            "format": "token",
+            "help": "API token"
+        },
+        {
+            "name": "env",
+            "format": "env",
+            "help": "Environment when using API token"
+        },
+        {
+            "name": "help",
+            "format": "help",
+            "help": "Display help for current command"
+        },
+        {
+            "name": "quiet",
+            "format": "quiet",
+            "help": "Auto-confirm any prompts without waiting for input"
+        },
+        {
+            "name": "version",
+            "format": "version",
+            "help": "Display appcenter version"
+        },
+        {
+            "name": "disable-telemetry",
+            "format": "disable-telemetry",
+            "help": "Disable telemetry for this command"
+        },
+        {
+            "name": "debug",
+            "format": "debug",
+            "help": "Display extra output for debugging"
+        },
+        {
+            "name": "output",
+            "format": "output",
+            "help": "Output format: json"
+        },
+        {
+            "name": "token",
+            "format": "token",
+            "help": "API token"
+        },
+        {
+            "name": "env",
+            "format": "env",
+            "help": "Environment when using API token"
+        },
+        {
+            "name": "help",
+            "format": "help",
+            "help": "Display help for current command"
+        },
+        {
+            "name": "quiet",
+            "format": "quiet",
+            "help": "Auto-confirm any prompts without waiting for input"
+        },
+        {
+            "name": "version",
+            "format": "version",
+            "help": "Display appcenter version"
+        },
+        {
+            "name": "disable-telemetry",
+            "format": "disable-telemetry",
+            "help": "Disable telemetry for this command"
+        },
+        {
+            "name": "debug",
+            "format": "debug",
+            "help": "Display extra output for debugging"
+        },
+        {
+            "name": "output",
+            "format": "output",
+            "help": "Output format: json"
+        },
+        {
+            "name": "token",
+            "format": "token",
+            "help": "API token"
+        },
+        {
+            "name": "env",
+            "format": "env",
+            "help": "Environment when using API token"
+        },
+        {
+            "name": "help",
+            "format": "help",
+            "help": "Display help for current command"
+        },
+        {
+            "name": "quiet",
+            "format": "quiet",
+            "help": "Auto-confirm any prompts without waiting for input"
+        },
+        {
+            "name": "version",
+            "format": "version",
+            "help": "Display appcenter version"
+        },
+        {
+            "name": "disable-telemetry",
+            "format": "disable-telemetry",
+            "help": "Disable telemetry for this command"
+        },
+        {
+            "name": "debug",
+            "format": "debug",
+            "help": "Display extra output for debugging"
+        },
+        {
+            "name": "output",
+            "format": "output",
+            "help": "Output format: json"
+        },
+        {
+            "name": "token",
+            "format": "token",
+            "help": "API token"
+        },
+        {
+            "name": "env",
+            "format": "env",
+            "help": "Environment when using API token"
+        },
+        {
+            "name": "help",
+            "format": "help",
+            "help": "Display help for current command"
+        },
+        {
+            "name": "quiet",
+            "format": "quiet",
+            "help": "Auto-confirm any prompts without waiting for input"
+        },
+        {
+            "name": "version",
+            "format": "version",
+            "help": "Display appcenter version"
+        },
+        {
+            "name": "disable-telemetry",
+            "format": "disable-telemetry",
+            "help": "Disable telemetry for this command"
+        },
+        {
+            "name": "debug",
+            "format": "debug",
+            "help": "Display extra output for debugging"
+        },
+        {
+            "name": "output",
+            "format": "output",
+            "help": "Output format: json"
+        },
+        {
+            "name": "token",
+            "format": "token",
+            "help": "API token"
+        },
+        {
+            "name": "env",
+            "format": "env",
+            "help": "Environment when using API token"
+        },
+        {
+            "name": "help",
+            "format": "help",
+            "help": "Display help for current command"
+        },
+        {
+            "name": "quiet",
+            "format": "quiet",
+            "help": "Auto-confirm any prompts without waiting for input"
+        },
+        {
+            "name": "version",
+            "format": "version",
+            "help": "Display appcenter version"
+        },
+        {
+            "name": "disable-telemetry",
+            "format": "disable-telemetry",
+            "help": "Disable telemetry for this command"
+        },
+        {
+            "name": "debug",
+            "format": "debug",
+            "help": "Display extra output for debugging"
+        },
+        {
+            "name": "output",
+            "format": "output",
+            "help": "Output format: json"
+        },
+        {
+            "name": "token",
+            "format": "token",
+            "help": "API token"
+        },
+        {
+            "name": "env",
+            "format": "env",
+            "help": "Environment when using API token"
+        },
+        {
+            "name": "help",
+            "format": "help",
+            "help": "Display help for current command"
+        },
+        {
+            "name": "quiet",
+            "format": "quiet",
+            "help": "Auto-confirm any prompts without waiting for input"
+        },
+        {
+            "name": "version",
+            "format": "version",
+            "help": "Display appcenter version"
+        },
+        {
+            "name": "disable-telemetry",
+            "format": "disable-telemetry",
+            "help": "Disable telemetry for this command"
+        },
+        {
+            "name": "debug",
+            "format": "debug",
+            "help": "Display extra output for debugging"
+        },
+        {
+            "name": "output",
+            "format": "output",
+            "help": "Output format: json"
+        },
+        {
+            "name": "token",
+            "format": "token",
+            "help": "API token"
+        },
+        {
+            "name": "env",
+            "format": "env",
+            "help": "Environment when using API token"
+        },
+        {
+            "name": "help",
+            "format": "help",
+            "help": "Display help for current command"
+        },
+        {
+            "name": "quiet",
+            "format": "quiet",
+            "help": "Auto-confirm any prompts without waiting for input"
+        },
+        {
+            "name": "version",
+            "format": "version",
+            "help": "Display appcenter version"
+        },
+        {
+            "name": "disable-telemetry",
+            "format": "disable-telemetry",
+            "help": "Disable telemetry for this command"
+        },
+        {
+            "name": "debug",
+            "format": "debug",
+            "help": "Display extra output for debugging"
+        },
+        {
+            "name": "output",
+            "format": "output",
+            "help": "Output format: json"
+        },
+        {
+            "name": "token",
+            "format": "token",
+            "help": "API token"
+        },
+        {
+            "name": "env",
+            "format": "env",
+            "help": "Environment when using API token"
+        },
+        {
+            "name": "help",
+            "format": "help",
+            "help": "Display help for current command"
+        },
+        {
+            "name": "quiet",
+            "format": "quiet",
+            "help": "Auto-confirm any prompts without waiting for input"
+        },
+        {
+            "name": "version",
+            "format": "version",
+            "help": "Display appcenter version"
+        },
+        {
+            "name": "disable-telemetry",
+            "format": "disable-telemetry",
+            "help": "Disable telemetry for this command"
+        },
+        {
+            "name": "debug",
+            "format": "debug",
+            "help": "Display extra output for debugging"
+        },
+        {
+            "name": "output",
+            "format": "output",
+            "help": "Output format: json"
+        },
+        {
+            "name": "token",
+            "format": "token",
+            "help": "API token"
+        },
+        {
+            "name": "env",
+            "format": "env",
+            "help": "Environment when using API token"
+        },
+        {
+            "name": "help",
+            "format": "help",
+            "help": "Display help for current command"
+        },
+        {
+            "name": "quiet",
+            "format": "quiet",
+            "help": "Auto-confirm any prompts without waiting for input"
+        },
+        {
+            "name": "version",
+            "format": "version",
+            "help": "Display appcenter version"
+        },
+        {
+            "name": "disable-telemetry",
+            "format": "disable-telemetry",
+            "help": "Disable telemetry for this command"
+        },
+        {
+            "name": "debug",
+            "format": "debug",
+            "help": "Display extra output for debugging"
+        },
+        {
+            "name": "output",
+            "format": "output",
+            "help": "Output format: json"
+        },
+        {
+            "name": "token",
+            "format": "token",
+            "help": "API token"
+        },
+        {
+            "name": "env",
+            "format": "env",
+            "help": "Environment when using API token"
+        },
+        {
+            "name": "help",
+            "format": "help",
+            "help": "Display help for current command"
+        },
+        {
+            "name": "quiet",
+            "format": "quiet",
+            "help": "Auto-confirm any prompts without waiting for input"
+        },
+        {
+            "name": "version",
+            "format": "version",
+            "help": "Display appcenter version"
+        },
+        {
+            "name": "disable-telemetry",
+            "format": "disable-telemetry",
+            "help": "Disable telemetry for this command"
+        },
+        {
+            "name": "debug",
+            "format": "debug",
+            "help": "Display extra output for debugging"
+        },
+        {
+            "name": "output",
+            "format": "output",
+            "help": "Output format: json"
+        },
+        {
+            "name": "token",
+            "format": "token",
+            "help": "API token"
+        },
+        {
+            "name": "env",
+            "format": "env",
+            "help": "Environment when using API token"
+        },
+        {
+            "name": "help",
+            "format": "help",
+            "help": "Display help for current command"
+        },
+        {
+            "name": "quiet",
+            "format": "quiet",
+            "help": "Auto-confirm any prompts without waiting for input"
+        },
+        {
+            "name": "version",
+            "format": "version",
+            "help": "Display appcenter version"
+        },
+        {
+            "name": "disable-telemetry",
+            "format": "disable-telemetry",
+            "help": "Disable telemetry for this command"
+        },
+        {
+            "name": "debug",
+            "format": "debug",
+            "help": "Display extra output for debugging"
+        },
+        {
+            "name": "output",
+            "format": "output",
+            "help": "Output format: json"
+        },
+        {
+            "name": "token",
+            "format": "token",
+            "help": "API token"
+        },
+        {
+            "name": "env",
+            "format": "env",
+            "help": "Environment when using API token"
+        },
+        {
+            "name": "help",
+            "format": "help",
+            "help": "Display help for current command"
+        },
+        {
+            "name": "quiet",
+            "format": "quiet",
+            "help": "Auto-confirm any prompts without waiting for input"
+        },
+        {
+            "name": "version",
+            "format": "version",
+            "help": "Display appcenter version"
+        },
+        {
+            "name": "disable-telemetry",
+            "format": "disable-telemetry",
+            "help": "Disable telemetry for this command"
+        },
+        {
+            "name": "debug",
+            "format": "debug",
+            "help": "Display extra output for debugging"
+        },
+        {
+            "name": "output",
+            "format": "output",
+            "help": "Output format: json"
+        },
+        {
+            "name": "token",
+            "format": "token",
+            "help": "API token"
+        },
+        {
+            "name": "env",
+            "format": "env",
+            "help": "Environment when using API token"
+        },
+        {
+            "name": "help",
+            "format": "help",
+            "help": "Display help for current command"
+        },
+        {
+            "name": "quiet",
+            "format": "quiet",
+            "help": "Auto-confirm any prompts without waiting for input"
+        },
+        {
+            "name": "version",
+            "format": "version",
+            "help": "Display appcenter version"
+        },
+        {
+            "name": "disable-telemetry",
+            "format": "disable-telemetry",
+            "help": "Disable telemetry for this command"
+        },
+        {
+            "name": "debug",
+            "format": "debug",
+            "help": "Display extra output for debugging"
+        },
+        {
+            "name": "output",
+            "format": "output",
+            "help": "Output format: json"
+        },
+        {
+            "name": "token",
+            "format": "token",
+            "help": "API token"
+        },
+        {
+            "name": "env",
+            "format": "env",
+            "help": "Environment when using API token"
+        },
+        {
+            "name": "help",
+            "format": "help",
+            "help": "Display help for current command"
+        },
+        {
+            "name": "quiet",
+            "format": "quiet",
+            "help": "Auto-confirm any prompts without waiting for input"
+        },
+        {
+            "name": "version",
+            "format": "version",
+            "help": "Display appcenter version"
+        },
+        {
+            "name": "disable-telemetry",
+            "format": "disable-telemetry",
+            "help": "Disable telemetry for this command"
+        },
+        {
+            "name": "debug",
+            "format": "debug",
+            "help": "Display extra output for debugging"
+        },
+        {
+            "name": "output",
+            "format": "output",
+            "help": "Output format: json"
+        },
+        {
+            "name": "token",
+            "format": "token",
+            "help": "API token"
+        },
+        {
+            "name": "env",
+            "format": "env",
+            "help": "Environment when using API token"
+        },
+        {
+            "name": "help",
+            "format": "help",
+            "help": "Display help for current command"
+        },
+        {
+            "name": "quiet",
+            "format": "quiet",
+            "help": "Auto-confirm any prompts without waiting for input"
+        },
+        {
+            "name": "version",
+            "format": "version",
+            "help": "Display appcenter version"
+        },
+        {
+            "name": "disable-telemetry",
+            "format": "disable-telemetry",
+            "help": "Disable telemetry for this command"
+        },
+        {
+            "name": "debug",
+            "format": "debug",
+            "help": "Display extra output for debugging"
+        },
+        {
+            "name": "output",
+            "format": "output",
+            "help": "Output format: json"
+        },
+        {
+            "name": "token",
+            "format": "token",
+            "help": "API token"
+        },
+        {
+            "name": "env",
+            "format": "env",
+            "help": "Environment when using API token"
+        },
+        {
+            "name": "help",
+            "format": "help",
+            "help": "Display help for current command"
+        },
+        {
+            "name": "quiet",
+            "format": "quiet",
+            "help": "Auto-confirm any prompts without waiting for input"
+        },
+        {
+            "name": "version",
+            "format": "version",
+            "help": "Display appcenter version"
+        },
+        {
+            "name": "disable-telemetry",
+            "format": "disable-telemetry",
+            "help": "Disable telemetry for this command"
+        },
+        {
+            "name": "debug",
+            "format": "debug",
+            "help": "Display extra output for debugging"
+        },
+        {
+            "name": "output",
+            "format": "output",
+            "help": "Output format: json"
+        },
+        {
+            "name": "token",
+            "format": "token",
+            "help": "API token"
+        },
+        {
+            "name": "env",
+            "format": "env",
+            "help": "Environment when using API token"
+        },
+        {
+            "name": "help",
+            "format": "help",
+            "help": "Display help for current command"
+        },
+        {
+            "name": "quiet",
+            "format": "quiet",
+            "help": "Auto-confirm any prompts without waiting for input"
+        },
+        {
+            "name": "version",
+            "format": "version",
+            "help": "Display appcenter version"
+        },
+        {
+            "name": "disable-telemetry",
+            "format": "disable-telemetry",
+            "help": "Disable telemetry for this command"
+        },
+        {
+            "name": "debug",
+            "format": "debug",
+            "help": "Display extra output for debugging"
+        },
+        {
+            "name": "output",
+            "format": "output",
+            "help": "Output format: json"
+        },
+        {
+            "name": "token",
+            "format": "token",
+            "help": "API token"
+        },
+        {
+            "name": "env",
+            "format": "env",
+            "help": "Environment when using API token"
+        },
+        {
+            "name": "help",
+            "format": "help",
+            "help": "Display help for current command"
+        },
+        {
+            "name": "quiet",
+            "format": "quiet",
+            "help": "Auto-confirm any prompts without waiting for input"
+        },
+        {
+            "name": "version",
+            "format": "version",
+            "help": "Display appcenter version"
+        },
+        {
+            "name": "disable-telemetry",
+            "format": "disable-telemetry",
+            "help": "Disable telemetry for this command"
+        },
+        {
+            "name": "debug",
+            "format": "debug",
+            "help": "Display extra output for debugging"
+        },
+        {
+            "name": "output",
+            "format": "output",
+            "help": "Output format: json"
+        },
+        {
+            "name": "token",
+            "format": "token",
+            "help": "API token"
+        },
+        {
+            "name": "env",
+            "format": "env",
+            "help": "Environment when using API token"
+        },
+        {
+            "name": "help",
+            "format": "help",
+            "help": "Display help for current command"
+        },
+        {
+            "name": "quiet",
+            "format": "quiet",
+            "help": "Auto-confirm any prompts without waiting for input"
+        },
+        {
+            "name": "version",
+            "format": "version",
+            "help": "Display appcenter version"
+        },
+        {
+            "name": "disable-telemetry",
+            "format": "disable-telemetry",
+            "help": "Disable telemetry for this command"
+        },
+        {
+            "name": "debug",
+            "format": "debug",
+            "help": "Display extra output for debugging"
+        },
+        {
+            "name": "output",
+            "format": "output",
+            "help": "Output format: json"
+        },
+        {
+            "name": "token",
+            "format": "token",
+            "help": "API token"
+        },
+        {
+            "name": "env",
+            "format": "env",
+            "help": "Environment when using API token"
+        },
+        {
+            "name": "help",
+            "format": "help",
+            "help": "Display help for current command"
+        },
+        {
+            "name": "quiet",
+            "format": "quiet",
+            "help": "Auto-confirm any prompts without waiting for input"
+        },
+        {
+            "name": "version",
+            "format": "version",
+            "help": "Display appcenter version"
+        },
+        {
+            "name": "disable-telemetry",
+            "format": "disable-telemetry",
+            "help": "Disable telemetry for this command"
+        },
+        {
+            "name": "debug",
+            "format": "debug",
+            "help": "Display extra output for debugging"
+        },
+        {
+            "name": "output",
+            "format": "output",
+            "help": "Output format: json"
+        },
+        {
+            "name": "token",
+            "format": "token",
+            "help": "API token"
+        },
+        {
+            "name": "env",
+            "format": "env",
+            "help": "Environment when using API token"
+        },
+        {
+            "name": "help",
+            "format": "help",
+            "help": "Display help for current command"
+        },
+        {
+            "name": "quiet",
+            "format": "quiet",
+            "help": "Auto-confirm any prompts without waiting for input"
+        },
+        {
+            "name": "version",
+            "format": "version",
+            "help": "Display appcenter version"
+        },
+        {
+            "name": "disable-telemetry",
+            "format": "disable-telemetry",
+            "help": "Disable telemetry for this command"
+        },
+        {
+            "name": "debug",
+            "format": "debug",
+            "help": "Display extra output for debugging"
+        },
+        {
+            "name": "output",
+            "format": "output",
+            "help": "Output format: json"
+        },
+        {
+            "name": "token",
+            "format": "token",
+            "help": "API token"
+        },
+        {
+            "name": "env",
+            "format": "env",
+            "help": "Environment when using API token"
+        },
+        {
+            "name": "help",
+            "format": "help",
+            "help": "Display help for current command"
+        },
+        {
+            "name": "quiet",
+            "format": "quiet",
+            "help": "Auto-confirm any prompts without waiting for input"
+        },
+        {
+            "name": "version",
+            "format": "version",
+            "help": "Display appcenter version"
+        },
+        {
+            "name": "disable-telemetry",
+            "format": "disable-telemetry",
+            "help": "Disable telemetry for this command"
+        },
+        {
+            "name": "debug",
+            "format": "debug",
+            "help": "Display extra output for debugging"
+        },
+        {
+            "name": "output",
+            "format": "output",
+            "help": "Output format: json"
+        },
+        {
+            "name": "token",
+            "format": "token",
+            "help": "API token"
+        },
+        {
+            "name": "env",
+            "format": "env",
+            "help": "Environment when using API token"
+        },
+        {
+            "name": "help",
+            "format": "help",
+            "help": "Display help for current command"
+        },
+        {
+            "name": "quiet",
+            "format": "quiet",
+            "help": "Auto-confirm any prompts without waiting for input"
+        },
+        {
+            "name": "version",
+            "format": "version",
+            "help": "Display appcenter version"
+        },
+        {
+            "name": "disable-telemetry",
+            "format": "disable-telemetry",
+            "help": "Disable telemetry for this command"
+        },
+        {
+            "name": "debug",
+            "format": "debug",
+            "help": "Display extra output for debugging"
+        },
+        {
+            "name": "output",
+            "format": "output",
+            "help": "Output format: json"
+        },
+        {
+            "name": "token",
+            "format": "token",
+            "help": "API token"
+        },
+        {
+            "name": "env",
+            "format": "env",
+            "help": "Environment when using API token"
+        },
+        {
+            "name": "help",
+            "format": "help",
+            "help": "Display help for current command"
+        },
+        {
+            "name": "quiet",
+            "format": "quiet",
+            "help": "Auto-confirm any prompts without waiting for input"
+        },
+        {
+            "name": "version",
+            "format": "version",
+            "help": "Display appcenter version"
+        },
+        {
+            "name": "disable-telemetry",
+            "format": "disable-telemetry",
+            "help": "Disable telemetry for this command"
+        },
+        {
+            "name": "debug",
+            "format": "debug",
+            "help": "Display extra output for debugging"
+        },
+        {
+            "name": "output",
+            "format": "output",
+            "help": "Output format: json"
+        },
+        {
+            "name": "token",
+            "format": "token",
+            "help": "API token"
+        },
+        {
+            "name": "env",
+            "format": "env",
+            "help": "Environment when using API token"
+        },
+        {
+            "name": "help",
+            "format": "help",
+            "help": "Display help for current command"
+        },
+        {
+            "name": "quiet",
+            "format": "quiet",
+            "help": "Auto-confirm any prompts without waiting for input"
+        },
+        {
+            "name": "version",
+            "format": "version",
+            "help": "Display appcenter version"
+        },
+        {
+            "name": "disable-telemetry",
+            "format": "disable-telemetry",
+            "help": "Disable telemetry for this command"
+        },
+        {
+            "name": "debug",
+            "format": "debug",
+            "help": "Display extra output for debugging"
+        },
+        {
+            "name": "output",
+            "format": "output",
+            "help": "Output format: json"
+        },
+        {
+            "name": "token",
+            "format": "token",
+            "help": "API token"
+        },
+        {
+            "name": "env",
+            "format": "env",
+            "help": "Environment when using API token"
+        },
+        {
+            "name": "help",
+            "format": "help",
+            "help": "Display help for current command"
+        },
+        {
+            "name": "quiet",
+            "format": "quiet",
+            "help": "Auto-confirm any prompts without waiting for input"
+        },
+        {
+            "name": "version",
+            "format": "version",
+            "help": "Display appcenter version"
+        },
+        {
+            "name": "disable-telemetry",
+            "format": "disable-telemetry",
+            "help": "Disable telemetry for this command"
+        },
+        {
+            "name": "debug",
+            "format": "debug",
+            "help": "Display extra output for debugging"
+        },
+        {
+            "name": "output",
+            "format": "output",
+            "help": "Output format: json"
+        },
+        {
+            "name": "token",
+            "format": "token",
+            "help": "API token"
+        },
+        {
+            "name": "env",
+            "format": "env",
+            "help": "Environment when using API token"
+        },
+        {
+            "name": "help",
+            "format": "help",
+            "help": "Display help for current command"
+        },
+        {
+            "name": "quiet",
+            "format": "quiet",
+            "help": "Auto-confirm any prompts without waiting for input"
+        },
+        {
+            "name": "version",
+            "format": "version",
+            "help": "Display appcenter version"
+        },
+        {
+            "name": "disable-telemetry",
+            "format": "disable-telemetry",
+            "help": "Disable telemetry for this command"
+        },
+        {
+            "name": "debug",
+            "format": "debug",
+            "help": "Display extra output for debugging"
+        },
+        {
+            "name": "output",
+            "format": "output",
+            "help": "Output format: json"
+        },
+        {
+            "name": "token",
+            "format": "token",
+            "help": "API token"
+        },
+        {
+            "name": "env",
+            "format": "env",
+            "help": "Environment when using API token"
+        },
+        {
+            "name": "help",
+            "format": "help",
+            "help": "Display help for current command"
+        },
+        {
+            "name": "quiet",
+            "format": "quiet",
+            "help": "Auto-confirm any prompts without waiting for input"
+        },
+        {
+            "name": "version",
+            "format": "version",
+            "help": "Display appcenter version"
+        },
+        {
+            "name": "disable-telemetry",
+            "format": "disable-telemetry",
+            "help": "Disable telemetry for this command"
+        },
+        {
+            "name": "debug",
+            "format": "debug",
+            "help": "Display extra output for debugging"
+        },
+        {
+            "name": "output",
+            "format": "output",
+            "help": "Output format: json"
+        },
+        {
+            "name": "token",
+            "format": "token",
+            "help": "API token"
+        },
+        {
+            "name": "env",
+            "format": "env",
+            "help": "Environment when using API token"
+        },
+        {
+            "name": "help",
+            "format": "help",
+            "help": "Display help for current command"
+        },
+        {
+            "name": "quiet",
+            "format": "quiet",
+            "help": "Auto-confirm any prompts without waiting for input"
+        },
+        {
+            "name": "version",
+            "format": "version",
+            "help": "Display appcenter version"
+        },
+        {
+            "name": "disable-telemetry",
+            "format": "disable-telemetry",
+            "help": "Disable telemetry for this command"
+        },
+        {
+            "name": "debug",
+            "format": "debug",
+            "help": "Display extra output for debugging"
+        },
+        {
+            "name": "output",
+            "format": "output",
+            "help": "Output format: json"
+        },
+        {
+            "name": "token",
+            "format": "token",
+            "help": "API token"
+        },
+        {
+            "name": "env",
+            "format": "env",
+            "help": "Environment when using API token"
+        },
+        {
+            "name": "help",
+            "format": "help",
+            "help": "Display help for current command"
+        },
+        {
+            "name": "quiet",
+            "format": "quiet",
+            "help": "Auto-confirm any prompts without waiting for input"
+        },
+        {
+            "name": "version",
+            "format": "version",
+            "help": "Display appcenter version"
+        },
+        {
+            "name": "disable-telemetry",
+            "format": "disable-telemetry",
+            "help": "Disable telemetry for this command"
+        },
+        {
+            "name": "debug",
+            "format": "debug",
+            "help": "Display extra output for debugging"
+        },
+        {
+            "name": "output",
+            "format": "output",
+            "help": "Output format: json"
+        },
+        {
+            "name": "token",
+            "format": "token",
+            "help": "API token"
+        },
+        {
+            "name": "env",
+            "format": "env",
+            "help": "Environment when using API token"
+        },
+        {
+            "name": "help",
+            "format": "help",
+            "help": "Display help for current command"
+        },
+        {
+            "name": "quiet",
+            "format": "quiet",
+            "help": "Auto-confirm any prompts without waiting for input"
+        },
+        {
+            "name": "version",
+            "format": "version",
+            "help": "Display appcenter version"
+        },
+        {
+            "name": "disable-telemetry",
+            "format": "disable-telemetry",
+            "help": "Disable telemetry for this command"
+        },
+        {
+            "name": "debug",
+            "format": "debug",
+            "help": "Display extra output for debugging"
+        },
+        {
+            "name": "output",
+            "format": "output",
+            "help": "Output format: json"
+        },
+        {
+            "name": "token",
+            "format": "token",
+            "help": "API token"
+        },
+        {
+            "name": "env",
+            "format": "env",
+            "help": "Environment when using API token"
+        },
+        {
+            "name": "help",
+            "format": "help",
+            "help": "Display help for current command"
+        },
+        {
+            "name": "quiet",
+            "format": "quiet",
+            "help": "Auto-confirm any prompts without waiting for input"
+        },
+        {
+            "name": "version",
+            "format": "version",
+            "help": "Display appcenter version"
+        },
+        {
+            "name": "disable-telemetry",
+            "format": "disable-telemetry",
+            "help": "Disable telemetry for this command"
+        },
+        {
+            "name": "debug",
+            "format": "debug",
+            "help": "Display extra output for debugging"
+        },
+        {
+            "name": "output",
+            "format": "output",
+            "help": "Output format: json"
+        },
+        {
+            "name": "token",
+            "format": "token",
+            "help": "API token"
+        },
+        {
+            "name": "env",
+            "format": "env",
+            "help": "Environment when using API token"
+        },
+        {
+            "name": "help",
+            "format": "help",
+            "help": "Display help for current command"
+        },
+        {
+            "name": "quiet",
+            "format": "quiet",
+            "help": "Auto-confirm any prompts without waiting for input"
+        },
+        {
+            "name": "version",
+            "format": "version",
+            "help": "Display appcenter version"
+        },
+        {
+            "name": "disable-telemetry",
+            "format": "disable-telemetry",
+            "help": "Disable telemetry for this command"
+        },
+        {
+            "name": "debug",
+            "format": "debug",
+            "help": "Display extra output for debugging"
+        },
+        {
+            "name": "output",
+            "format": "output",
+            "help": "Output format: json"
+        },
+        {
+            "name": "token",
+            "format": "token",
+            "help": "API token"
+        },
+        {
+            "name": "env",
+            "format": "env",
+            "help": "Environment when using API token"
+        },
+        {
+            "name": "help",
+            "format": "help",
+            "help": "Display help for current command"
+        },
+        {
+            "name": "quiet",
+            "format": "quiet",
+            "help": "Auto-confirm any prompts without waiting for input"
+        },
+        {
+            "name": "version",
+            "format": "version",
+            "help": "Display appcenter version"
+        },
+        {
+            "name": "disable-telemetry",
+            "format": "disable-telemetry",
+            "help": "Disable telemetry for this command"
+        },
+        {
+            "name": "debug",
+            "format": "debug",
+            "help": "Display extra output for debugging"
+        },
+        {
+            "name": "output",
+            "format": "output",
+            "help": "Output format: json"
+        },
+        {
+            "name": "token",
+            "format": "token",
+            "help": "API token"
+        },
+        {
+            "name": "env",
+            "format": "env",
+            "help": "Environment when using API token"
+        },
+        {
+            "name": "help",
+            "format": "help",
+            "help": "Display help for current command"
+        },
+        {
+            "name": "quiet",
+            "format": "quiet",
+            "help": "Auto-confirm any prompts without waiting for input"
+        },
+        {
+            "name": "version",
+            "format": "version",
+            "help": "Display appcenter version"
+        },
+        {
+            "name": "disable-telemetry",
+            "format": "disable-telemetry",
+            "help": "Disable telemetry for this command"
+        },
+        {
+            "name": "debug",
+            "format": "debug",
+            "help": "Display extra output for debugging"
+        },
+        {
+            "name": "output",
+            "format": "output",
+            "help": "Output format: json"
+        },
+        {
+            "name": "token",
+            "format": "token",
+            "help": "API token"
+        },
+        {
+            "name": "env",
+            "format": "env",
+            "help": "Environment when using API token"
+        },
+        {
+            "name": "help",
+            "format": "help",
+            "help": "Display help for current command"
+        },
+        {
+            "name": "quiet",
+            "format": "quiet",
+            "help": "Auto-confirm any prompts without waiting for input"
+        },
+        {
+            "name": "version",
+            "format": "version",
+            "help": "Display appcenter version"
+        },
+        {
+            "name": "disable-telemetry",
+            "format": "disable-telemetry",
+            "help": "Disable telemetry for this command"
+        },
+        {
+            "name": "debug",
+            "format": "debug",
+            "help": "Display extra output for debugging"
+        },
+        {
+            "name": "output",
+            "format": "output",
+            "help": "Output format: json"
+        },
+        {
+            "name": "token",
+            "format": "token",
+            "help": "API token"
+        },
+        {
+            "name": "env",
+            "format": "env",
+            "help": "Environment when using API token"
+        },
+        {
+            "name": "help",
+            "format": "help",
+            "help": "Display help for current command"
+        },
+        {
+            "name": "quiet",
+            "format": "quiet",
+            "help": "Auto-confirm any prompts without waiting for input"
+        },
+        {
+            "name": "version",
+            "format": "version",
+            "help": "Display appcenter version"
+        },
+        {
+            "name": "disable-telemetry",
+            "format": "disable-telemetry",
+            "help": "Disable telemetry for this command"
+        },
+        {
+            "name": "debug",
+            "format": "debug",
+            "help": "Display extra output for debugging"
+        },
+        {
+            "name": "output",
+            "format": "output",
+            "help": "Output format: json"
+        },
+        {
+            "name": "token",
+            "format": "token",
+            "help": "API token"
+        },
+        {
+            "name": "env",
+            "format": "env",
+            "help": "Environment when using API token"
+        },
+        {
+            "name": "help",
+            "format": "help",
+            "help": "Display help for current command"
+        },
+        {
+            "name": "quiet",
+            "format": "quiet",
+            "help": "Auto-confirm any prompts without waiting for input"
+        },
+        {
+            "name": "version",
+            "format": "version",
+            "help": "Display appcenter version"
+        },
+        {
+            "name": "disable-telemetry",
+            "format": "disable-telemetry",
+            "help": "Disable telemetry for this command"
+        },
+        {
+            "name": "debug",
+            "format": "debug",
+            "help": "Display extra output for debugging"
+        },
+        {
+            "name": "output",
+            "format": "output",
+            "help": "Output format: json"
+        },
+        {
+            "name": "token",
+            "format": "token",
+            "help": "API token"
+        },
+        {
+            "name": "env",
+            "format": "env",
+            "help": "Environment when using API token"
+        },
+        {
+            "name": "help",
+            "format": "help",
+            "help": "Display help for current command"
+        },
+        {
+            "name": "quiet",
+            "format": "quiet",
+            "help": "Auto-confirm any prompts without waiting for input"
+        },
+        {
+            "name": "version",
+            "format": "version",
+            "help": "Display appcenter version"
+        },
+        {
+            "name": "disable-telemetry",
+            "format": "disable-telemetry",
+            "help": "Disable telemetry for this command"
+        },
+        {
+            "name": "debug",
+            "format": "debug",
+            "help": "Display extra output for debugging"
+        },
+        {
+            "name": "output",
+            "format": "output",
+            "help": "Output format: json"
+        },
+        {
+            "name": "token",
+            "format": "token",
+            "help": "API token"
+        },
+        {
+            "name": "env",
+            "format": "env",
+            "help": "Environment when using API token"
+        },
+        {
+            "name": "help",
+            "format": "help",
+            "help": "Display help for current command"
+        },
+        {
+            "name": "quiet",
+            "format": "quiet",
+            "help": "Auto-confirm any prompts without waiting for input"
+        },
+        {
+            "name": "version",
+            "format": "version",
+            "help": "Display appcenter version"
+        },
+        {
+            "name": "disable-telemetry",
+            "format": "disable-telemetry",
+            "help": "Disable telemetry for this command"
+        },
+        {
+            "name": "debug",
+            "format": "debug",
+            "help": "Display extra output for debugging"
+        },
+        {
+            "name": "output",
+            "format": "output",
+            "help": "Output format: json"
+        },
+        {
+            "name": "token",
+            "format": "token",
+            "help": "API token"
+        },
+        {
+            "name": "env",
+            "format": "env",
+            "help": "Environment when using API token"
+        },
+        {
+            "name": "help",
+            "format": "help",
+            "help": "Display help for current command"
+        },
+        {
+            "name": "quiet",
+            "format": "quiet",
+            "help": "Auto-confirm any prompts without waiting for input"
+        },
+        {
+            "name": "version",
+            "format": "version",
+            "help": "Display appcenter version"
+        },
+        {
+            "name": "disable-telemetry",
+            "format": "disable-telemetry",
+            "help": "Disable telemetry for this command"
+        },
+        {
+            "name": "debug",
+            "format": "debug",
+            "help": "Display extra output for debugging"
+        },
+        {
+            "name": "output",
+            "format": "output",
+            "help": "Output format: json"
+        },
+        {
+            "name": "token",
+            "format": "token",
+            "help": "API token"
+        },
+        {
+            "name": "env",
+            "format": "env",
+            "help": "Environment when using API token"
+        },
+        {
+            "name": "help",
+            "format": "help",
+            "help": "Display help for current command"
+        },
+        {
+            "name": "quiet",
+            "format": "quiet",
+            "help": "Auto-confirm any prompts without waiting for input"
+        },
+        {
+            "name": "version",
+            "format": "version",
+            "help": "Display appcenter version"
+        },
+        {
+            "name": "disable-telemetry",
+            "format": "disable-telemetry",
+            "help": "Disable telemetry for this command"
+        },
+        {
+            "name": "debug",
+            "format": "debug",
+            "help": "Display extra output for debugging"
+        },
+        {
+            "name": "output",
+            "format": "output",
+            "help": "Output format: json"
+        },
+        {
+            "name": "token",
+            "format": "token",
+            "help": "API token"
+        },
+        {
+            "name": "env",
+            "format": "env",
+            "help": "Environment when using API token"
+        },
+        {
+            "name": "help",
+            "format": "help",
+            "help": "Display help for current command"
+        },
+        {
+            "name": "quiet",
+            "format": "quiet",
+            "help": "Auto-confirm any prompts without waiting for input"
+        },
+        {
+            "name": "version",
+            "format": "version",
+            "help": "Display appcenter version"
+        },
+        {
+            "name": "disable-telemetry",
+            "format": "disable-telemetry",
+            "help": "Disable telemetry for this command"
+        },
+        {
+            "name": "debug",
+            "format": "debug",
+            "help": "Display extra output for debugging"
+        },
+        {
+            "name": "output",
+            "format": "output",
+            "help": "Output format: json"
+        },
+        {
+            "name": "token",
+            "format": "token",
+            "help": "API token"
+        },
+        {
+            "name": "env",
+            "format": "env",
+            "help": "Environment when using API token"
+        },
+        {
+            "name": "help",
+            "format": "help",
+            "help": "Display help for current command"
+        },
+        {
+            "name": "quiet",
+            "format": "quiet",
+            "help": "Auto-confirm any prompts without waiting for input"
+        },
+        {
+            "name": "version",
+            "format": "version",
+            "help": "Display appcenter version"
+        },
+        {
+            "name": "disable-telemetry",
+            "format": "disable-telemetry",
+            "help": "Disable telemetry for this command"
+        },
+        {
+            "name": "debug",
+            "format": "debug",
+            "help": "Display extra output for debugging"
+        },
+        {
+            "name": "output",
+            "format": "output",
+            "help": "Output format: json"
+        },
+        {
+            "name": "token",
+            "format": "token",
+            "help": "API token"
+        },
+        {
+            "name": "env",
+            "format": "env",
+            "help": "Environment when using API token"
+        },
+        {
+            "name": "help",
+            "format": "help",
+            "help": "Display help for current command"
+        },
+        {
+            "name": "quiet",
+            "format": "quiet",
+            "help": "Auto-confirm any prompts without waiting for input"
+        },
+        {
+            "name": "version",
+            "format": "version",
+            "help": "Display appcenter version"
+        },
+        {
+            "name": "disable-telemetry",
+            "format": "disable-telemetry",
+            "help": "Disable telemetry for this command"
+        },
+        {
+            "name": "debug",
+            "format": "debug",
+            "help": "Display extra output for debugging"
+        },
+        {
+            "name": "output",
+            "format": "output",
+            "help": "Output format: json"
+        },
+        {
+            "name": "token",
+            "format": "token",
+            "help": "API token"
+        },
+        {
+            "name": "env",
+            "format": "env",
+            "help": "Environment when using API token"
+        },
+        {
+            "name": "help",
+            "format": "help",
+            "help": "Display help for current command"
+        },
+        {
+            "name": "quiet",
+            "format": "quiet",
+            "help": "Auto-confirm any prompts without waiting for input"
+        },
+        {
+            "name": "version",
+            "format": "version",
+            "help": "Display appcenter version"
+        },
+        {
+            "name": "disable-telemetry",
+            "format": "disable-telemetry",
+            "help": "Disable telemetry for this command"
+        },
+        {
+            "name": "debug",
+            "format": "debug",
+            "help": "Display extra output for debugging"
+        },
+        {
+            "name": "output",
+            "format": "output",
+            "help": "Output format: json"
+        },
+        {
+            "name": "token",
+            "format": "token",
+            "help": "API token"
+        },
+        {
+            "name": "env",
+            "format": "env",
+            "help": "Environment when using API token"
+        },
+        {
+            "name": "help",
+            "format": "help",
+            "help": "Display help for current command"
+        },
+        {
+            "name": "quiet",
+            "format": "quiet",
+            "help": "Auto-confirm any prompts without waiting for input"
+        },
+        {
+            "name": "version",
+            "format": "version",
+            "help": "Display appcenter version"
+        },
+        {
+            "name": "disable-telemetry",
+            "format": "disable-telemetry",
+            "help": "Disable telemetry for this command"
+        },
+        {
+            "name": "debug",
+            "format": "debug",
+            "help": "Display extra output for debugging"
+        },
+        {
+            "name": "output",
+            "format": "output",
+            "help": "Output format: json"
+        },
+        {
+            "name": "token",
+            "format": "token",
+            "help": "API token"
+        },
+        {
+            "name": "env",
+            "format": "env",
+            "help": "Environment when using API token"
+        },
+        {
+            "name": "help",
+            "format": "help",
+            "help": "Display help for current command"
+        },
+        {
+            "name": "quiet",
+            "format": "quiet",
+            "help": "Auto-confirm any prompts without waiting for input"
+        },
+        {
+            "name": "version",
+            "format": "version",
+            "help": "Display appcenter version"
+        },
+        {
+            "name": "disable-telemetry",
+            "format": "disable-telemetry",
+            "help": "Disable telemetry for this command"
+        },
+        {
+            "name": "debug",
+            "format": "debug",
+            "help": "Display extra output for debugging"
+        },
+        {
+            "name": "output",
+            "format": "output",
+            "help": "Output format: json"
+        },
+        {
+            "name": "token",
+            "format": "token",
+            "help": "API token"
+        },
+        {
+            "name": "env",
+            "format": "env",
+            "help": "Environment when using API token"
+        },
+        {
+            "name": "help",
+            "format": "help",
+            "help": "Display help for current command"
+        },
+        {
+            "name": "quiet",
+            "format": "quiet",
+            "help": "Auto-confirm any prompts without waiting for input"
+        },
+        {
+            "name": "version",
+            "format": "version",
+            "help": "Display appcenter version"
+        },
+        {
+            "name": "disable-telemetry",
+            "format": "disable-telemetry",
+            "help": "Disable telemetry for this command"
+        },
+        {
+            "name": "debug",
+            "format": "debug",
+            "help": "Display extra output for debugging"
+        },
+        {
+            "name": "output",
+            "format": "output",
+            "help": "Output format: json"
+        },
+        {
+            "name": "token",
+            "format": "token",
+            "help": "API token"
+        },
+        {
+            "name": "env",
+            "format": "env",
+            "help": "Environment when using API token"
+        },
+        {
+            "name": "help",
+            "format": "help",
+            "help": "Display help for current command"
+        },
+        {
+            "name": "quiet",
+            "format": "quiet",
+            "help": "Auto-confirm any prompts without waiting for input"
+        },
+        {
+            "name": "version",
+            "format": "version",
+            "help": "Display appcenter version"
+        },
+        {
+            "name": "disable-telemetry",
+            "format": "disable-telemetry",
+            "help": "Disable telemetry for this command"
+        },
+        {
+            "name": "debug",
+            "format": "debug",
+            "help": "Display extra output for debugging"
+        },
+        {
+            "name": "output",
+            "format": "output",
+            "help": "Output format: json"
+        },
+        {
+            "name": "token",
+            "format": "token",
+            "help": "API token"
+        },
+        {
+            "name": "env",
+            "format": "env",
+            "help": "Environment when using API token"
+        },
+        {
+            "name": "help",
+            "format": "help",
+            "help": "Display help for current command"
+        },
+        {
+            "name": "quiet",
+            "format": "quiet",
+            "help": "Auto-confirm any prompts without waiting for input"
+        },
+        {
+            "name": "version",
+            "format": "version",
+            "help": "Display appcenter version"
+        },
+        {
+            "name": "disable-telemetry",
+            "format": "disable-telemetry",
+            "help": "Disable telemetry for this command"
+        },
+        {
+            "name": "debug",
+            "format": "debug",
+            "help": "Display extra output for debugging"
+        },
+        {
+            "name": "output",
+            "format": "output",
+            "help": "Output format: json"
+        },
+        {
+            "name": "token",
+            "format": "token",
+            "help": "API token"
+        },
+        {
+            "name": "env",
+            "format": "env",
+            "help": "Environment when using API token"
+        },
+        {
+            "name": "help",
+            "format": "help",
+            "help": "Display help for current command"
+        },
+        {
+            "name": "quiet",
+            "format": "quiet",
+            "help": "Auto-confirm any prompts without waiting for input"
+        },
+        {
+            "name": "version",
+            "format": "version",
+            "help": "Display appcenter version"
+        },
+        {
+            "name": "disable-telemetry",
+            "format": "disable-telemetry",
+            "help": "Disable telemetry for this command"
+        },
+        {
+            "name": "debug",
+            "format": "debug",
+            "help": "Display extra output for debugging"
+        },
+        {
+            "name": "output",
+            "format": "output",
+            "help": "Output format: json"
+        },
+        {
+            "name": "token",
+            "format": "token",
+            "help": "API token"
+        },
+        {
+            "name": "env",
+            "format": "env",
+            "help": "Environment when using API token"
+        },
+        {
+            "name": "help",
+            "format": "help",
+            "help": "Display help for current command"
+        },
+        {
+            "name": "quiet",
+            "format": "quiet",
+            "help": "Auto-confirm any prompts without waiting for input"
+        },
+        {
+            "name": "version",
+            "format": "version",
+            "help": "Display appcenter version"
+        },
+        {
+            "name": "disable-telemetry",
+            "format": "disable-telemetry",
+            "help": "Disable telemetry for this command"
+        },
+        {
+            "name": "debug",
+            "format": "debug",
+            "help": "Display extra output for debugging"
+        },
+        {
+            "name": "output",
+            "format": "output",
+            "help": "Output format: json"
+        },
+        {
+            "name": "token",
+            "format": "token",
+            "help": "API token"
+        },
+        {
+            "name": "env",
+            "format": "env",
+            "help": "Environment when using API token"
+        },
+        {
+            "name": "help",
+            "format": "help",
+            "help": "Display help for current command"
+        },
+        {
+            "name": "quiet",
+            "format": "quiet",
+            "help": "Auto-confirm any prompts without waiting for input"
+        },
+        {
+            "name": "version",
+            "format": "version",
+            "help": "Display appcenter version"
+        },
+        {
+            "name": "disable-telemetry",
+            "format": "disable-telemetry",
+            "help": "Disable telemetry for this command"
+        },
+        {
+            "name": "debug",
+            "format": "debug",
+            "help": "Display extra output for debugging"
+        },
+        {
+            "name": "output",
+            "format": "output",
+            "help": "Output format: json"
+        },
+        {
+            "name": "token",
+            "format": "token",
+            "help": "API token"
+        },
+        {
+            "name": "env",
+            "format": "env",
+            "help": "Environment when using API token"
+        },
+        {
+            "name": "help",
+            "format": "help",
+            "help": "Display help for current command"
+        },
+        {
+            "name": "quiet",
+            "format": "quiet",
+            "help": "Auto-confirm any prompts without waiting for input"
+        },
+        {
+            "name": "version",
+            "format": "version",
+            "help": "Display appcenter version"
+        },
+        {
+            "name": "disable-telemetry",
+            "format": "disable-telemetry",
+            "help": "Disable telemetry for this command"
+        },
+        {
+            "name": "debug",
+            "format": "debug",
+            "help": "Display extra output for debugging"
+        },
+        {
+            "name": "output",
+            "format": "output",
+            "help": "Output format: json"
+        },
+        {
+            "name": "token",
+            "format": "token",
+            "help": "API token"
+        },
+        {
+            "name": "env",
+            "format": "env",
+            "help": "Environment when using API token"
+        },
+        {
+            "name": "help",
+            "format": "help",
+            "help": "Display help for current command"
+        },
+        {
+            "name": "quiet",
+            "format": "quiet",
+            "help": "Auto-confirm any prompts without waiting for input"
+        },
+        {
+            "name": "version",
+            "format": "version",
+            "help": "Display appcenter version"
+        },
+        {
+            "name": "disable-telemetry",
+            "format": "disable-telemetry",
+            "help": "Disable telemetry for this command"
+        },
+        {
+            "name": "debug",
+            "format": "debug",
+            "help": "Display extra output for debugging"
+        },
+        {
+            "name": "output",
+            "format": "output",
+            "help": "Output format: json"
+        },
+        {
+            "name": "token",
+            "format": "token",
+            "help": "API token"
+        },
+        {
+            "name": "env",
+            "format": "env",
+            "help": "Environment when using API token"
+        },
+        {
+            "name": "help",
+            "format": "help",
+            "help": "Display help for current command"
+        },
+        {
+            "name": "quiet",
+            "format": "quiet",
+            "help": "Auto-confirm any prompts without waiting for input"
+        },
+        {
+            "name": "version",
+            "format": "version",
+            "help": "Display appcenter version"
+        },
+        {
+            "name": "disable-telemetry",
+            "format": "disable-telemetry",
+            "help": "Disable telemetry for this command"
+        },
+        {
+            "name": "debug",
+            "format": "debug",
+            "help": "Display extra output for debugging"
+        },
+        {
+            "name": "output",
+            "format": "output",
+            "help": "Output format: json"
+        },
+        {
+            "name": "token",
+            "format": "token",
+            "help": "API token"
+        },
+        {
+            "name": "env",
+            "format": "env",
+            "help": "Environment when using API token"
+        },
+        {
+            "name": "help",
+            "format": "help",
+            "help": "Display help for current command"
+        },
+        {
+            "name": "quiet",
+            "format": "quiet",
+            "help": "Auto-confirm any prompts without waiting for input"
+        },
+        {
+            "name": "version",
+            "format": "version",
+            "help": "Display appcenter version"
+        },
+        {
+            "name": "disable-telemetry",
+            "format": "disable-telemetry",
+            "help": "Disable telemetry for this command"
+        }
+    ],
+    "tasks": [
+        {
+            "help": "Show audience statistics",
+            "postfix": "AnalyticsAudience",
+            "commonPropertySets": [],
+            "definiteArgument": "analytics audience",
+            "settingsClass": {
+                "properties": []
+            }
+        },
+        {
+            "help": "Delete event",
+            "postfix": "AnalyticsEventsDelete",
+            "commonPropertySets": [],
+            "definiteArgument": "analytics events delete",
+            "settingsClass": {
+                "properties": []
+            }
+        },
+        {
+            "help": "Show statistics for events",
+            "postfix": "AnalyticsEventsShow",
+            "commonPropertySets": [],
+            "definiteArgument": "analytics events show",
+            "settingsClass": {
+                "properties": []
+            }
+        },
+        {
+            "help": "Show statistics for sessions",
+            "postfix": "AnalyticsSessions",
+            "commonPropertySets": [],
+            "definiteArgument": "analytics sessions",
+            "settingsClass": {
+                "properties": []
+            }
+        },
+        {
+            "help": "Create a new app",
+            "postfix": "AppsCreate",
+            "commonPropertySets": [],
+            "definiteArgument": "apps create",
+            "settingsClass": {
+                "properties": []
+            }
+        },
+        {
+            "help": "Delete an app",
+            "postfix": "AppsDelete",
+            "commonPropertySets": [],
+            "definiteArgument": "apps delete",
+            "settingsClass": {
+                "properties": []
+            }
+        },
+        {
+            "help": "Get list of configured applications",
+            "postfix": "AppsList",
+            "commonPropertySets": [],
+            "definiteArgument": "apps list",
+            "settingsClass": {
+                "properties": []
+            }
+        },
+        {
+            "help": "Get the details of an app",
+            "postfix": "AppsShow",
+            "commonPropertySets": [],
+            "definiteArgument": "apps show",
+            "settingsClass": {
+                "properties": []
+            }
+        },
+        {
+            "help": "Update an app",
+            "postfix": "AppsUpdate",
+            "commonPropertySets": [],
+            "definiteArgument": "apps update",
+            "settingsClass": {
+                "properties": []
+            }
+        },
+        {
+            "help": "Show list of branches",
+            "postfix": "BuildBranchesList",
+            "commonPropertySets": [],
+            "definiteArgument": "build branches list",
+            "settingsClass": {
+                "properties": []
+            }
+        },
+        {
+            "help": "Show branch build status",
+            "postfix": "BuildBranchesShow",
+            "commonPropertySets": [],
+            "definiteArgument": "build branches show",
+            "settingsClass": {
+                "properties": []
+            }
+        },
+        {
+            "help": "Download the binary, logs or symbols for a completed build",
+            "postfix": "BuildDownload",
+            "commonPropertySets": [],
+            "definiteArgument": "build download",
+            "settingsClass": {
+                "properties": []
+            }
+        },
+        {
+            "help": "Displays log for build",
+            "postfix": "BuildLogs",
+            "commonPropertySets": [],
+            "definiteArgument": "build logs",
+            "settingsClass": {
+                "properties": []
+            }
+        },
+        {
+            "help": "Queue a new build",
+            "postfix": "BuildQueue",
+            "commonPropertySets": [],
+            "definiteArgument": "build queue",
+            "settingsClass": {
+                "properties": []
+            }
+        },
+        {
+            "help": "Add a new deployment to an app",
+            "postfix": "CodepushDeploymentAdd",
+            "commonPropertySets": [],
+            "definiteArgument": "codepush deployment add",
+            "settingsClass": {
+                "properties": []
+            }
+        },
+        {
+            "help": "Clear the release history associated with a deployment",
+            "postfix": "CodepushDeploymentClear",
+            "commonPropertySets": [],
+            "definiteArgument": "codepush deployment clear",
+            "settingsClass": {
+                "properties": []
+            }
+        },
+        {
+            "help": "Display the release history for a CodePush deployment",
+            "postfix": "CodepushDeploymentHistory",
+            "commonPropertySets": [],
+            "definiteArgument": "codepush deployment history",
+            "settingsClass": {
+                "properties": []
+            }
+        },
+        {
+            "help": "List the deployments associated with an app",
+            "postfix": "CodepushDeploymentList",
+            "commonPropertySets": [],
+            "definiteArgument": "codepush deployment list",
+            "settingsClass": {
+                "properties": []
+            }
+        },
+        {
+            "help": "Remove CodePush deployment",
+            "postfix": "CodepushDeploymentRemove",
+            "commonPropertySets": [],
+            "definiteArgument": "codepush deployment remove",
+            "settingsClass": {
+                "properties": []
+            }
+        },
+        {
+            "help": "Rename CodePush deployment",
+            "postfix": "CodepushDeploymentRename",
+            "commonPropertySets": [],
+            "definiteArgument": "codepush deployment rename",
+            "settingsClass": {
+                "properties": []
+            }
+        },
+        {
+            "help": "Update the metadata for an existing CodePush release",
+            "postfix": "CodepushPatch",
+            "commonPropertySets": [],
+            "definiteArgument": "codepush patch",
+            "settingsClass": {
+                "properties": []
+            }
+        },
+        {
+            "help": "Create a new release for the destination deployment, which includes the exact code and metadata from the latest release of the source deployment",
+            "postfix": "CodepushPromote",
+            "commonPropertySets": [],
+            "definiteArgument": "codepush promote",
+            "settingsClass": {
+                "properties": []
+            }
+        },
+        {
+            "help": "Release an update to an app deployment",
+            "postfix": "CodepushRelease",
+            "commonPropertySets": [],
+            "definiteArgument": "codepush release",
+            "settingsClass": {
+                "properties": []
+            }
+        },
+        {
+            "help": "Rollback a deployment to a previous release",
+            "postfix": "CodepushRollback",
+            "commonPropertySets": [],
+            "definiteArgument": "codepush rollback",
+            "settingsClass": {
+                "properties": []
+            }
+        },
+        {
+            "help": "Create new distribution group",
+            "postfix": "DistributeGroupsCreate",
+            "commonPropertySets": [],
+            "definiteArgument": "distribute groups create",
+            "settingsClass": {
+                "properties": []
+            }
+        },
+        {
+            "help": "Deletes the distribution group",
+            "postfix": "DistributeGroupsDelete",
+            "commonPropertySets": [],
+            "definiteArgument": "distribute groups delete",
+            "settingsClass": {
+                "properties": []
+            }
+        },
+        {
+            "help": "Download release package for the distribution group",
+            "postfix": "DistributeGroupsDownload",
+            "commonPropertySets": [],
+            "definiteArgument": "distribute groups download",
+            "settingsClass": {
+                "properties": []
+            }
+        },
+        {
+            "help": "Lists all distribution groups of the app",
+            "postfix": "DistributeGroupsList",
+            "commonPropertySets": [],
+            "definiteArgument": "distribute groups list",
+            "settingsClass": {
+                "properties": []
+            }
+        },
+        {
+            "help": "Publish an app file to a group",
+            "postfix": "DistributeGroupsPublish",
+            "commonPropertySets": [],
+            "definiteArgument": "distribute groups publish",
+            "settingsClass": {
+                "properties": []
+            }
+        },
+        {
+            "help": "Shows information about the distribution group",
+            "postfix": "DistributeGroupsShow",
+            "commonPropertySets": [],
+            "definiteArgument": "distribute groups show",
+            "settingsClass": {
+                "properties": []
+            }
+        },
+        {
+            "help": "Update existing distribution group",
+            "postfix": "DistributeGroupsUpdate",
+            "commonPropertySets": [],
+            "definiteArgument": "distribute groups update",
+            "settingsClass": {
+                "properties": []
+            }
+        },
+        {
+            "help": "Upload release binary and trigger distribution, at least one of --store or --group must be specified",
+            "postfix": "DistributeRelease",
+            "commonPropertySets": [],
+            "definiteArgument": "distribute release",
+            "settingsClass": {
+                "properties": []
+            }
+        },
+        {
+            "help": "Deletes the release",
+            "postfix": "DistributeReleasesDelete",
+            "commonPropertySets": [],
+            "definiteArgument": "distribute releases delete",
+            "settingsClass": {
+                "properties": []
+            }
+        },
+        {
+            "help": "Toggles enabling and disabling the specified release",
+            "postfix": "DistributeReleasesEdit",
+            "commonPropertySets": [],
+            "definiteArgument": "distribute releases edit",
+            "settingsClass": {
+                "properties": []
+            }
+        },
+        {
+            "help": "Shows the list of all releases for the application",
+            "postfix": "DistributeReleasesList",
+            "commonPropertySets": [],
+            "definiteArgument": "distribute releases list",
+            "settingsClass": {
+                "properties": []
+            }
+        },
+        {
+            "help": "Shows full details about release",
+            "postfix": "DistributeReleasesShow",
+            "commonPropertySets": [],
+            "definiteArgument": "distribute releases show",
+            "settingsClass": {
+                "properties": []
+            }
+        },
+        {
+            "help": "Lists all stores of the app",
+            "postfix": "DistributeStoresList",
+            "commonPropertySets": [],
+            "definiteArgument": "distribute stores list",
+            "settingsClass": {
+                "properties": []
+            }
+        },
+        {
+            "help": "Publish an app file to a store",
+            "postfix": "DistributeStoresPublish",
+            "commonPropertySets": [],
+            "definiteArgument": "distribute stores publish",
+            "settingsClass": {
+                "properties": []
+            }
+        },
+        {
+            "help": "Get help using appcenter commands",
+            "postfix": "Help",
+            "commonPropertySets": [],
+            "definiteArgument": "help",
+            "settingsClass": {
+                "properties": []
+            }
+        },
+        {
+            "help": "Log in",
+            "postfix": "Login",
+            "commonPropertySets": [],
+            "definiteArgument": "login",
+            "settingsClass": {
+                "properties": []
+            }
+        },
+        {
+            "help": "Log out",
+            "postfix": "Logout",
+            "commonPropertySets": [],
+            "definiteArgument": "logout",
+            "settingsClass": {
+                "properties": []
+            }
+        },
+        {
+            "help": "Create a new app in an organization",
+            "postfix": "OrgsAppsCreate",
+            "commonPropertySets": [],
+            "definiteArgument": "orgs apps create",
+            "settingsClass": {
+                "properties": []
+            }
+        },
+        {
+            "help": "Lists applications of organization",
+            "postfix": "OrgsAppsList",
+            "commonPropertySets": [],
+            "definiteArgument": "orgs apps list",
+            "settingsClass": {
+                "properties": []
+            }
+        },
+        {
+            "help": "Lists collaborators of organization",
+            "postfix": "OrgsCollaboratorsList",
+            "commonPropertySets": [],
+            "definiteArgument": "orgs collaborators list",
+            "settingsClass": {
+                "properties": []
+            }
+        },
+        {
+            "help": "Update list of organization collaborators",
+            "postfix": "OrgsCollaboratorsUpdate",
+            "commonPropertySets": [],
+            "definiteArgument": "orgs collaborators update",
+            "settingsClass": {
+                "properties": []
+            }
+        },
+        {
+            "help": "Create a new organization",
+            "postfix": "OrgsCreate",
+            "commonPropertySets": [],
+            "definiteArgument": "orgs create",
+            "settingsClass": {
+                "properties": []
+            }
+        },
+        {
+            "help": "Lists organizations in which current user is collaborator",
+            "postfix": "OrgsList",
+            "commonPropertySets": [],
+            "definiteArgument": "orgs list",
+            "settingsClass": {
+                "properties": []
+            }
+        },
+        {
+            "help": "Show information about organization",
+            "postfix": "OrgsShow",
+            "commonPropertySets": [],
+            "definiteArgument": "orgs show",
+            "settingsClass": {
+                "properties": []
+            }
+        },
+        {
+            "help": "Update organization information",
+            "postfix": "OrgsUpdate",
+            "commonPropertySets": [],
+            "definiteArgument": "orgs update",
+            "settingsClass": {
+                "properties": []
+            }
+        },
+        {
+            "help": "Get information about logged in user",
+            "postfix": "ProfileList",
+            "commonPropertySets": [],
+            "definiteArgument": "profile list",
+            "settingsClass": {
+                "properties": []
+            }
+        },
+        {
+            "help": "Update user information",
+            "postfix": "ProfileUpdate",
+            "commonPropertySets": [],
+            "definiteArgument": "profile update",
+            "settingsClass": {
+                "properties": []
+            }
+        },
+        {
+            "help": "Turn off the sending of telemetry",
+            "postfix": "TelemetryOff",
+            "commonPropertySets": [],
+            "definiteArgument": "telemetry off",
+            "settingsClass": {
+                "properties": []
+            }
+        },
+        {
+            "help": "Turn on the sending of telemetry",
+            "postfix": "TelemetryOn",
+            "commonPropertySets": [],
+            "definiteArgument": "telemetry on",
+            "settingsClass": {
+                "properties": []
+            }
+        },
+        {
+            "help": "Download the report artifacts, unpack and merge them. This command is only available for UITest and Appium test runs.",
+            "postfix": "TestDownload",
+            "commonPropertySets": [],
+            "definiteArgument": "test download",
+            "settingsClass": {
+                "properties": []
+            }
+        },
+        {
+            "help": "Generates an Appium project",
+            "postfix": "TestGenerateAppium",
+            "commonPropertySets": [],
+            "definiteArgument": "test generate appium",
+            "settingsClass": {
+                "properties": []
+            }
+        },
+        {
+            "help": "Generates a Xamarin.UITest project",
+            "postfix": "TestGenerateUitest",
+            "commonPropertySets": [],
+            "definiteArgument": "test generate uitest",
+            "settingsClass": {
+                "properties": []
+            }
+        },
+        {
+            "postfix": "TestLibWizardAppium",
+            "commonPropertySets": [],
+            "definiteArgument": "test lib wizard appium",
+            "settingsClass": {
+                "properties": []
+            }
+        },
+        {
+            "postfix": "TestLibWizardEspresso",
+            "commonPropertySets": [],
+            "definiteArgument": "test lib wizard espresso",
+            "settingsClass": {
+                "properties": []
+            }
+        },
+        {
+            "postfix": "TestLibWizardUitest",
+            "commonPropertySets": [],
+            "definiteArgument": "test lib wizard uitest",
+            "settingsClass": {
+                "properties": []
+            }
+        },
+        {
+            "postfix": "TestLibWizardXcuitest",
+            "commonPropertySets": [],
+            "definiteArgument": "test lib wizard xcuitest",
+            "settingsClass": {
+                "properties": []
+            }
+        },
+        {
+            "help": "Creates an artifacts directory with Appium tests.",
+            "postfix": "TestPrepareAppium",
+            "commonPropertySets": [],
+            "definiteArgument": "test prepare appium",
+            "settingsClass": {
+                "properties": []
+            }
+        },
+        {
+            "help": "Creates an artifacts directory with Calabash tests.\nRequired external tools:\n- Ruby \n- Gem xamarin-test-cloud",
+            "postfix": "TestPrepareCalabash",
+            "commonPropertySets": [],
+            "definiteArgument": "test prepare calabash",
+            "settingsClass": {
+                "properties": []
+            }
+        },
+        {
+            "help": "Creates an artifacts directory with Espresso tests.",
+            "postfix": "TestPrepareEspresso",
+            "commonPropertySets": [],
+            "definiteArgument": "test prepare espresso",
+            "settingsClass": {
+                "properties": []
+            }
+        },
+        {
+            "help": "Creates an artifacts directory with Xamarin UI Tests.\nRequired external tools:\n- .NET Framework on Windows, Mono Runtime on OS X\n- NuGet package Xamarin.UITests, version 2.0.1 or higher",
+            "postfix": "TestPrepareUitest",
+            "commonPropertySets": [],
+            "definiteArgument": "test prepare uitest",
+            "settingsClass": {
+                "properties": []
+            }
+        },
+        {
+            "help": "Creates an artifacts directory with XCUITest tests.",
+            "postfix": "TestPrepareXcuitest",
+            "commonPropertySets": [],
+            "definiteArgument": "test prepare xcuitest",
+            "settingsClass": {
+                "properties": []
+            }
+        },
+        {
+            "help": "Starts a test run with Appium tests.",
+            "postfix": "TestRunAppium",
+            "commonPropertySets": [],
+            "definiteArgument": "test run appium",
+            "settingsClass": {
+                "properties": []
+            }
+        },
+        {
+            "help": "Starts a test run with Calabash tests.\nRequired external tools:\n- Ruby \n- Gem xamarin-test-cloud",
+            "postfix": "TestRunCalabash",
+            "commonPropertySets": [],
+            "definiteArgument": "test run calabash",
+            "settingsClass": {
+                "properties": []
+            }
+        },
+        {
+            "help": "Starts a test run with Espresso tests.",
+            "postfix": "TestRunEspresso",
+            "commonPropertySets": [],
+            "definiteArgument": "test run espresso",
+            "settingsClass": {
+                "properties": []
+            }
+        },
+        {
+            "help": "Starts a test run with previously prepared artifacts.",
+            "postfix": "TestRunManifest",
+            "commonPropertySets": [],
+            "definiteArgument": "test run manifest",
+            "settingsClass": {
+                "properties": []
+            }
+        },
+        {
+            "help": "Starts a test run with Xamarin UI Tests.\nRequired external tools:\n- .NET Framework on Windows, Mono Runtime on OS X\n- NuGet package Xamarin.UITests, version 2.0.1 or higher",
+            "postfix": "TestRunUitest",
+            "commonPropertySets": [],
+            "definiteArgument": "test run uitest",
+            "settingsClass": {
+                "properties": []
+            }
+        },
+        {
+            "help": "Starts a test run with XCUITest tests.",
+            "postfix": "TestRunXcuitest",
+            "commonPropertySets": [],
+            "definiteArgument": "test run xcuitest",
+            "settingsClass": {
+                "properties": []
+            }
+        },
+        {
+            "help": "Checks the status of the started test run.",
+            "postfix": "TestStatus",
+            "commonPropertySets": [],
+            "definiteArgument": "test status",
+            "settingsClass": {
+                "properties": []
+            }
+        },
+        {
+            "help": "Stop the started test run.",
+            "postfix": "TestStop",
+            "commonPropertySets": [],
+            "definiteArgument": "test stop",
+            "settingsClass": {
+                "properties": []
+            }
+        },
+        {
+            "help": "Start a test run interactively. All the parameters will be prompted on-the-go.",
+            "postfix": "TestWizard",
+            "commonPropertySets": [],
+            "definiteArgument": "test wizard",
+            "settingsClass": {
+                "properties": []
+            }
+        },
+        {
+            "help": "Create a new API token",
+            "postfix": "TokensCreate",
+            "commonPropertySets": [],
+            "definiteArgument": "tokens create",
+            "settingsClass": {
+                "properties": []
+            }
+        },
+        {
+            "help": "Delete an API token",
+            "postfix": "TokensDelete",
+            "commonPropertySets": [],
+            "definiteArgument": "tokens delete",
+            "settingsClass": {
+                "properties": []
+            }
+        },
+        {
+            "help": "Get a list of API tokens",
+            "postfix": "TokensList",
+            "commonPropertySets": [],
+            "definiteArgument": "tokens list",
+            "settingsClass": {
+                "properties": []
+            }
+        }
+    ]
+}

@@ -20,7 +20,7 @@ export interface task{
     help:string;
     postfix:string;
     commonPropertySets:string[];
-    definiteArgument:string;
+    definiteArgument?:string;
     settingsClass:properties;
 }
 
@@ -45,4 +45,5 @@ export interface nukeSchema{
     officialUrl:string;
     pathExecutable:string;
     tasks:task[];
+    commonTaskPropertySets:commonTaskPropertySet[];
 }
