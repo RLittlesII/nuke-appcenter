@@ -3074,7 +3074,15 @@
         {
             "help": "Show audience statistics",
             "postfix": "AnalyticsAudience",
-            "commonPropertySets": [],
+            "commonPropertySets": [
+                "debug",
+                "token",
+                "env",
+                "help",
+                "quiet",
+                "version",
+                "disable-telemetry"
+            ],
             "definiteArgument": "analytics audience",
             "settingsClass": {
                 "properties": []
@@ -3083,7 +3091,16 @@
         {
             "help": "Delete event",
             "postfix": "AnalyticsEventsDelete",
-            "commonPropertySets": [],
+            "commonPropertySets": [
+                "debug",
+                "token",
+                "env",
+                "help",
+                "quiet",
+                "version",
+                "disable-telemetry",
+                "output"
+            ],
             "definiteArgument": "analytics events delete",
             "settingsClass": {
                 "properties": []
@@ -3092,7 +3109,16 @@
         {
             "help": "Show statistics for events",
             "postfix": "AnalyticsEventsShow",
-            "commonPropertySets": [],
+            "commonPropertySets": [
+                "debug",
+                "token",
+                "env",
+                "help",
+                "quiet",
+                "version",
+                "disable-telemetry",
+                "output"
+            ],
             "definiteArgument": "analytics events show",
             "settingsClass": {
                 "properties": []
@@ -3101,7 +3127,16 @@
         {
             "help": "Show statistics for sessions",
             "postfix": "AnalyticsSessions",
-            "commonPropertySets": [],
+            "commonPropertySets": [
+                "debug",
+                "token",
+                "env",
+                "help",
+                "quiet",
+                "version",
+                "disable-telemetry",
+                "output"
+            ],
             "definiteArgument": "analytics sessions",
             "settingsClass": {
                 "properties": []
@@ -3110,7 +3145,16 @@
         {
             "help": "Create a new app",
             "postfix": "AppsCreate",
-            "commonPropertySets": [],
+            "commonPropertySets": [
+                "debug",
+                "token",
+                "env",
+                "help",
+                "quiet",
+                "version",
+                "disable-telemetry",
+                "output"
+            ],
             "definiteArgument": "apps create",
             "settingsClass": {
                 "properties": []
@@ -3119,7 +3163,16 @@
         {
             "help": "Delete an app",
             "postfix": "AppsDelete",
-            "commonPropertySets": [],
+            "commonPropertySets": [
+                "debug",
+                "token",
+                "env",
+                "help",
+                "quiet",
+                "version",
+                "disable-telemetry",
+                "output"
+            ],
             "definiteArgument": "apps delete",
             "settingsClass": {
                 "properties": []
@@ -3128,7 +3181,16 @@
         {
             "help": "Get list of configured applications",
             "postfix": "AppsList",
-            "commonPropertySets": [],
+            "commonPropertySets": [
+                "debug",
+                "token",
+                "env",
+                "help",
+                "quiet",
+                "version",
+                "disable-telemetry",
+                "output"
+            ],
             "definiteArgument": "apps list",
             "settingsClass": {
                 "properties": []
@@ -3137,7 +3199,16 @@
         {
             "help": "Get the details of an app",
             "postfix": "AppsShow",
-            "commonPropertySets": [],
+            "commonPropertySets": [
+                "debug",
+                "token",
+                "env",
+                "help",
+                "quiet",
+                "version",
+                "disable-telemetry",
+                "output"
+            ],
             "definiteArgument": "apps show",
             "settingsClass": {
                 "properties": []
@@ -3146,7 +3217,16 @@
         {
             "help": "Update an app",
             "postfix": "AppsUpdate",
-            "commonPropertySets": [],
+            "commonPropertySets": [
+                "debug",
+                "token",
+                "env",
+                "help",
+                "quiet",
+                "version",
+                "disable-telemetry",
+                "output"
+            ],
             "definiteArgument": "apps update",
             "settingsClass": {
                 "properties": []
@@ -3155,7 +3235,16 @@
         {
             "help": "Show list of branches",
             "postfix": "BuildBranchesList",
-            "commonPropertySets": [],
+            "commonPropertySets": [
+                "debug",
+                "token",
+                "env",
+                "help",
+                "quiet",
+                "version",
+                "disable-telemetry",
+                "output"
+            ],
             "definiteArgument": "build branches list",
             "settingsClass": {
                 "properties": []
@@ -3164,7 +3253,16 @@
         {
             "help": "Show branch build status",
             "postfix": "BuildBranchesShow",
-            "commonPropertySets": [],
+            "commonPropertySets": [
+                "debug",
+                "token",
+                "env",
+                "help",
+                "quiet",
+                "version",
+                "disable-telemetry",
+                "output"
+            ],
             "definiteArgument": "build branches show",
             "settingsClass": {
                 "properties": []
@@ -3173,7 +3271,16 @@
         {
             "help": "Download the binary, logs or symbols for a completed build",
             "postfix": "BuildDownload",
-            "commonPropertySets": [],
+            "commonPropertySets": [
+                "debug",
+                "token",
+                "env",
+                "help",
+                "quiet",
+                "version",
+                "disable-telemetry",
+                "output"
+            ],
             "definiteArgument": "build download",
             "settingsClass": {
                 "properties": []
@@ -3182,7 +3289,16 @@
         {
             "help": "Displays log for build",
             "postfix": "BuildLogs",
-            "commonPropertySets": [],
+            "commonPropertySets": [
+                "debug",
+                "token",
+                "env",
+                "help",
+                "quiet",
+                "version",
+                "disable-telemetry",
+                "output"
+            ],
             "definiteArgument": "build logs",
             "settingsClass": {
                 "properties": []
@@ -3191,7 +3307,16 @@
         {
             "help": "Queue a new build",
             "postfix": "BuildQueue",
-            "commonPropertySets": [],
+            "commonPropertySets": [
+                "debug",
+                "token",
+                "env",
+                "help",
+                "quiet",
+                "version",
+                "disable-telemetry",
+                "output"
+            ],
             "definiteArgument": "build queue",
             "settingsClass": {
                 "properties": []
@@ -3200,7 +3325,16 @@
         {
             "help": "Add a new deployment to an app",
             "postfix": "CodepushDeploymentAdd",
-            "commonPropertySets": [],
+            "commonPropertySets": [
+                "debug",
+                "token",
+                "env",
+                "help",
+                "quiet",
+                "version",
+                "disable-telemetry",
+                "output"
+            ],
             "definiteArgument": "codepush deployment add",
             "settingsClass": {
                 "properties": []
@@ -3209,7 +3343,16 @@
         {
             "help": "Clear the release history associated with a deployment",
             "postfix": "CodepushDeploymentClear",
-            "commonPropertySets": [],
+            "commonPropertySets": [
+                "debug",
+                "token",
+                "env",
+                "help",
+                "quiet",
+                "version",
+                "disable-telemetry",
+                "output"
+            ],
             "definiteArgument": "codepush deployment clear",
             "settingsClass": {
                 "properties": []
@@ -3218,7 +3361,16 @@
         {
             "help": "Display the release history for a CodePush deployment",
             "postfix": "CodepushDeploymentHistory",
-            "commonPropertySets": [],
+            "commonPropertySets": [
+                "debug",
+                "token",
+                "env",
+                "help",
+                "quiet",
+                "version",
+                "disable-telemetry",
+                "output"
+            ],
             "definiteArgument": "codepush deployment history",
             "settingsClass": {
                 "properties": []
@@ -3227,7 +3379,16 @@
         {
             "help": "List the deployments associated with an app",
             "postfix": "CodepushDeploymentList",
-            "commonPropertySets": [],
+            "commonPropertySets": [
+                "debug",
+                "token",
+                "env",
+                "help",
+                "quiet",
+                "version",
+                "disable-telemetry",
+                "output"
+            ],
             "definiteArgument": "codepush deployment list",
             "settingsClass": {
                 "properties": []
@@ -3236,7 +3397,16 @@
         {
             "help": "Remove CodePush deployment",
             "postfix": "CodepushDeploymentRemove",
-            "commonPropertySets": [],
+            "commonPropertySets": [
+                "debug",
+                "token",
+                "env",
+                "help",
+                "quiet",
+                "version",
+                "disable-telemetry",
+                "output"
+            ],
             "definiteArgument": "codepush deployment remove",
             "settingsClass": {
                 "properties": []
@@ -3245,7 +3415,16 @@
         {
             "help": "Rename CodePush deployment",
             "postfix": "CodepushDeploymentRename",
-            "commonPropertySets": [],
+            "commonPropertySets": [
+                "debug",
+                "token",
+                "env",
+                "help",
+                "quiet",
+                "version",
+                "disable-telemetry",
+                "output"
+            ],
             "definiteArgument": "codepush deployment rename",
             "settingsClass": {
                 "properties": []
@@ -3254,7 +3433,16 @@
         {
             "help": "Update the metadata for an existing CodePush release",
             "postfix": "CodepushPatch",
-            "commonPropertySets": [],
+            "commonPropertySets": [
+                "debug",
+                "token",
+                "env",
+                "help",
+                "quiet",
+                "version",
+                "disable-telemetry",
+                "output"
+            ],
             "definiteArgument": "codepush patch",
             "settingsClass": {
                 "properties": []
@@ -3263,7 +3451,16 @@
         {
             "help": "Create a new release for the destination deployment, which includes the exact code and metadata from the latest release of the source deployment",
             "postfix": "CodepushPromote",
-            "commonPropertySets": [],
+            "commonPropertySets": [
+                "debug",
+                "token",
+                "env",
+                "help",
+                "quiet",
+                "version",
+                "disable-telemetry",
+                "output"
+            ],
             "definiteArgument": "codepush promote",
             "settingsClass": {
                 "properties": []
@@ -3272,7 +3469,16 @@
         {
             "help": "Release an update to an app deployment",
             "postfix": "CodepushRelease",
-            "commonPropertySets": [],
+            "commonPropertySets": [
+                "debug",
+                "token",
+                "env",
+                "help",
+                "quiet",
+                "version",
+                "disable-telemetry",
+                "output"
+            ],
             "definiteArgument": "codepush release",
             "settingsClass": {
                 "properties": []
@@ -3281,7 +3487,16 @@
         {
             "help": "Rollback a deployment to a previous release",
             "postfix": "CodepushRollback",
-            "commonPropertySets": [],
+            "commonPropertySets": [
+                "debug",
+                "token",
+                "env",
+                "help",
+                "quiet",
+                "version",
+                "disable-telemetry",
+                "output"
+            ],
             "definiteArgument": "codepush rollback",
             "settingsClass": {
                 "properties": []
@@ -3290,7 +3505,16 @@
         {
             "help": "Create new distribution group",
             "postfix": "DistributeGroupsCreate",
-            "commonPropertySets": [],
+            "commonPropertySets": [
+                "debug",
+                "token",
+                "env",
+                "help",
+                "quiet",
+                "version",
+                "disable-telemetry",
+                "output"
+            ],
             "definiteArgument": "distribute groups create",
             "settingsClass": {
                 "properties": []
@@ -3299,7 +3523,16 @@
         {
             "help": "Deletes the distribution group",
             "postfix": "DistributeGroupsDelete",
-            "commonPropertySets": [],
+            "commonPropertySets": [
+                "debug",
+                "token",
+                "env",
+                "help",
+                "quiet",
+                "version",
+                "disable-telemetry",
+                "output"
+            ],
             "definiteArgument": "distribute groups delete",
             "settingsClass": {
                 "properties": []
@@ -3308,7 +3541,16 @@
         {
             "help": "Download release package for the distribution group",
             "postfix": "DistributeGroupsDownload",
-            "commonPropertySets": [],
+            "commonPropertySets": [
+                "debug",
+                "token",
+                "env",
+                "help",
+                "quiet",
+                "version",
+                "disable-telemetry",
+                "output"
+            ],
             "definiteArgument": "distribute groups download",
             "settingsClass": {
                 "properties": []
@@ -3317,7 +3559,16 @@
         {
             "help": "Lists all distribution groups of the app",
             "postfix": "DistributeGroupsList",
-            "commonPropertySets": [],
+            "commonPropertySets": [
+                "debug",
+                "token",
+                "env",
+                "help",
+                "quiet",
+                "version",
+                "disable-telemetry",
+                "output"
+            ],
             "definiteArgument": "distribute groups list",
             "settingsClass": {
                 "properties": []
@@ -3326,7 +3577,16 @@
         {
             "help": "Publish an app file to a group",
             "postfix": "DistributeGroupsPublish",
-            "commonPropertySets": [],
+            "commonPropertySets": [
+                "debug",
+                "token",
+                "env",
+                "help",
+                "quiet",
+                "version",
+                "disable-telemetry",
+                "output"
+            ],
             "definiteArgument": "distribute groups publish",
             "settingsClass": {
                 "properties": []
@@ -3335,7 +3595,16 @@
         {
             "help": "Shows information about the distribution group",
             "postfix": "DistributeGroupsShow",
-            "commonPropertySets": [],
+            "commonPropertySets": [
+                "debug",
+                "token",
+                "env",
+                "help",
+                "quiet",
+                "version",
+                "disable-telemetry",
+                "output"
+            ],
             "definiteArgument": "distribute groups show",
             "settingsClass": {
                 "properties": []
@@ -3344,7 +3613,16 @@
         {
             "help": "Update existing distribution group",
             "postfix": "DistributeGroupsUpdate",
-            "commonPropertySets": [],
+            "commonPropertySets": [
+                "debug",
+                "token",
+                "env",
+                "help",
+                "quiet",
+                "version",
+                "disable-telemetry",
+                "output"
+            ],
             "definiteArgument": "distribute groups update",
             "settingsClass": {
                 "properties": []
@@ -3353,7 +3631,16 @@
         {
             "help": "Upload release binary and trigger distribution, at least one of --store or --group must be specified",
             "postfix": "DistributeRelease",
-            "commonPropertySets": [],
+            "commonPropertySets": [
+                "debug",
+                "token",
+                "env",
+                "help",
+                "quiet",
+                "version",
+                "disable-telemetry",
+                "output"
+            ],
             "definiteArgument": "distribute release",
             "settingsClass": {
                 "properties": []
@@ -3362,7 +3649,16 @@
         {
             "help": "Deletes the release",
             "postfix": "DistributeReleasesDelete",
-            "commonPropertySets": [],
+            "commonPropertySets": [
+                "debug",
+                "token",
+                "env",
+                "help",
+                "quiet",
+                "version",
+                "disable-telemetry",
+                "output"
+            ],
             "definiteArgument": "distribute releases delete",
             "settingsClass": {
                 "properties": []
@@ -3371,7 +3667,16 @@
         {
             "help": "Toggles enabling and disabling the specified release",
             "postfix": "DistributeReleasesEdit",
-            "commonPropertySets": [],
+            "commonPropertySets": [
+                "debug",
+                "token",
+                "env",
+                "help",
+                "quiet",
+                "version",
+                "disable-telemetry",
+                "output"
+            ],
             "definiteArgument": "distribute releases edit",
             "settingsClass": {
                 "properties": []
@@ -3380,7 +3685,16 @@
         {
             "help": "Shows the list of all releases for the application",
             "postfix": "DistributeReleasesList",
-            "commonPropertySets": [],
+            "commonPropertySets": [
+                "debug",
+                "token",
+                "env",
+                "help",
+                "quiet",
+                "version",
+                "disable-telemetry",
+                "output"
+            ],
             "definiteArgument": "distribute releases list",
             "settingsClass": {
                 "properties": []
@@ -3389,7 +3703,16 @@
         {
             "help": "Shows full details about release",
             "postfix": "DistributeReleasesShow",
-            "commonPropertySets": [],
+            "commonPropertySets": [
+                "debug",
+                "token",
+                "env",
+                "help",
+                "quiet",
+                "version",
+                "disable-telemetry",
+                "output"
+            ],
             "definiteArgument": "distribute releases show",
             "settingsClass": {
                 "properties": []
@@ -3398,7 +3721,16 @@
         {
             "help": "Lists all stores of the app",
             "postfix": "DistributeStoresList",
-            "commonPropertySets": [],
+            "commonPropertySets": [
+                "debug",
+                "token",
+                "env",
+                "help",
+                "quiet",
+                "version",
+                "disable-telemetry",
+                "output"
+            ],
             "definiteArgument": "distribute stores list",
             "settingsClass": {
                 "properties": []
@@ -3407,7 +3739,16 @@
         {
             "help": "Publish an app file to a store",
             "postfix": "DistributeStoresPublish",
-            "commonPropertySets": [],
+            "commonPropertySets": [
+                "debug",
+                "token",
+                "env",
+                "help",
+                "quiet",
+                "version",
+                "disable-telemetry",
+                "output"
+            ],
             "definiteArgument": "distribute stores publish",
             "settingsClass": {
                 "properties": []
@@ -3416,7 +3757,16 @@
         {
             "help": "Get help using appcenter commands",
             "postfix": "Help",
-            "commonPropertySets": [],
+            "commonPropertySets": [
+                "debug",
+                "token",
+                "env",
+                "help",
+                "quiet",
+                "version",
+                "disable-telemetry",
+                "output"
+            ],
             "definiteArgument": "help",
             "settingsClass": {
                 "properties": []
@@ -3425,7 +3775,16 @@
         {
             "help": "Log in",
             "postfix": "Login",
-            "commonPropertySets": [],
+            "commonPropertySets": [
+                "debug",
+                "token",
+                "env",
+                "help",
+                "quiet",
+                "version",
+                "disable-telemetry",
+                "output"
+            ],
             "definiteArgument": "login",
             "settingsClass": {
                 "properties": []
@@ -3434,7 +3793,16 @@
         {
             "help": "Log out",
             "postfix": "Logout",
-            "commonPropertySets": [],
+            "commonPropertySets": [
+                "debug",
+                "token",
+                "env",
+                "help",
+                "quiet",
+                "version",
+                "disable-telemetry",
+                "output"
+            ],
             "definiteArgument": "logout",
             "settingsClass": {
                 "properties": []
@@ -3443,7 +3811,16 @@
         {
             "help": "Create a new app in an organization",
             "postfix": "OrgsAppsCreate",
-            "commonPropertySets": [],
+            "commonPropertySets": [
+                "debug",
+                "token",
+                "env",
+                "help",
+                "quiet",
+                "version",
+                "disable-telemetry",
+                "output"
+            ],
             "definiteArgument": "orgs apps create",
             "settingsClass": {
                 "properties": []
@@ -3452,7 +3829,16 @@
         {
             "help": "Lists applications of organization",
             "postfix": "OrgsAppsList",
-            "commonPropertySets": [],
+            "commonPropertySets": [
+                "debug",
+                "token",
+                "env",
+                "help",
+                "quiet",
+                "version",
+                "disable-telemetry",
+                "output"
+            ],
             "definiteArgument": "orgs apps list",
             "settingsClass": {
                 "properties": []
@@ -3461,7 +3847,16 @@
         {
             "help": "Lists collaborators of organization",
             "postfix": "OrgsCollaboratorsList",
-            "commonPropertySets": [],
+            "commonPropertySets": [
+                "debug",
+                "token",
+                "env",
+                "help",
+                "quiet",
+                "version",
+                "disable-telemetry",
+                "output"
+            ],
             "definiteArgument": "orgs collaborators list",
             "settingsClass": {
                 "properties": []
@@ -3470,7 +3865,16 @@
         {
             "help": "Update list of organization collaborators",
             "postfix": "OrgsCollaboratorsUpdate",
-            "commonPropertySets": [],
+            "commonPropertySets": [
+                "debug",
+                "token",
+                "env",
+                "help",
+                "quiet",
+                "version",
+                "disable-telemetry",
+                "output"
+            ],
             "definiteArgument": "orgs collaborators update",
             "settingsClass": {
                 "properties": []
@@ -3479,7 +3883,16 @@
         {
             "help": "Create a new organization",
             "postfix": "OrgsCreate",
-            "commonPropertySets": [],
+            "commonPropertySets": [
+                "debug",
+                "token",
+                "env",
+                "help",
+                "quiet",
+                "version",
+                "disable-telemetry",
+                "output"
+            ],
             "definiteArgument": "orgs create",
             "settingsClass": {
                 "properties": []
@@ -3488,7 +3901,16 @@
         {
             "help": "Lists organizations in which current user is collaborator",
             "postfix": "OrgsList",
-            "commonPropertySets": [],
+            "commonPropertySets": [
+                "debug",
+                "token",
+                "env",
+                "help",
+                "quiet",
+                "version",
+                "disable-telemetry",
+                "output"
+            ],
             "definiteArgument": "orgs list",
             "settingsClass": {
                 "properties": []
@@ -3497,7 +3919,16 @@
         {
             "help": "Show information about organization",
             "postfix": "OrgsShow",
-            "commonPropertySets": [],
+            "commonPropertySets": [
+                "debug",
+                "token",
+                "env",
+                "help",
+                "quiet",
+                "version",
+                "disable-telemetry",
+                "output"
+            ],
             "definiteArgument": "orgs show",
             "settingsClass": {
                 "properties": []
@@ -3506,7 +3937,16 @@
         {
             "help": "Update organization information",
             "postfix": "OrgsUpdate",
-            "commonPropertySets": [],
+            "commonPropertySets": [
+                "debug",
+                "token",
+                "env",
+                "help",
+                "quiet",
+                "version",
+                "disable-telemetry",
+                "output"
+            ],
             "definiteArgument": "orgs update",
             "settingsClass": {
                 "properties": []
@@ -3515,7 +3955,16 @@
         {
             "help": "Get information about logged in user",
             "postfix": "ProfileList",
-            "commonPropertySets": [],
+            "commonPropertySets": [
+                "debug",
+                "token",
+                "env",
+                "help",
+                "quiet",
+                "version",
+                "disable-telemetry",
+                "output"
+            ],
             "definiteArgument": "profile list",
             "settingsClass": {
                 "properties": []
@@ -3524,7 +3973,16 @@
         {
             "help": "Update user information",
             "postfix": "ProfileUpdate",
-            "commonPropertySets": [],
+            "commonPropertySets": [
+                "debug",
+                "token",
+                "env",
+                "help",
+                "quiet",
+                "version",
+                "disable-telemetry",
+                "output"
+            ],
             "definiteArgument": "profile update",
             "settingsClass": {
                 "properties": []
@@ -3533,7 +3991,16 @@
         {
             "help": "Turn off the sending of telemetry",
             "postfix": "TelemetryOff",
-            "commonPropertySets": [],
+            "commonPropertySets": [
+                "debug",
+                "token",
+                "env",
+                "help",
+                "quiet",
+                "version",
+                "disable-telemetry",
+                "output"
+            ],
             "definiteArgument": "telemetry off",
             "settingsClass": {
                 "properties": []
@@ -3542,7 +4009,16 @@
         {
             "help": "Turn on the sending of telemetry",
             "postfix": "TelemetryOn",
-            "commonPropertySets": [],
+            "commonPropertySets": [
+                "debug",
+                "token",
+                "env",
+                "help",
+                "quiet",
+                "version",
+                "disable-telemetry",
+                "output"
+            ],
             "definiteArgument": "telemetry on",
             "settingsClass": {
                 "properties": []
@@ -3551,7 +4027,16 @@
         {
             "help": "Download the report artifacts, unpack and merge them. This command is only available for UITest and Appium test runs.",
             "postfix": "TestDownload",
-            "commonPropertySets": [],
+            "commonPropertySets": [
+                "debug",
+                "token",
+                "env",
+                "help",
+                "quiet",
+                "version",
+                "disable-telemetry",
+                "output"
+            ],
             "definiteArgument": "test download",
             "settingsClass": {
                 "properties": []
@@ -3560,7 +4045,16 @@
         {
             "help": "Generates an Appium project",
             "postfix": "TestGenerateAppium",
-            "commonPropertySets": [],
+            "commonPropertySets": [
+                "debug",
+                "token",
+                "env",
+                "help",
+                "quiet",
+                "version",
+                "disable-telemetry",
+                "output"
+            ],
             "definiteArgument": "test generate appium",
             "settingsClass": {
                 "properties": []
@@ -3569,7 +4063,16 @@
         {
             "help": "Generates a Xamarin.UITest project",
             "postfix": "TestGenerateUitest",
-            "commonPropertySets": [],
+            "commonPropertySets": [
+                "debug",
+                "token",
+                "env",
+                "help",
+                "quiet",
+                "version",
+                "disable-telemetry",
+                "output"
+            ],
             "definiteArgument": "test generate uitest",
             "settingsClass": {
                 "properties": []
@@ -3577,7 +4080,16 @@
         },
         {
             "postfix": "TestLibWizardAppium",
-            "commonPropertySets": [],
+            "commonPropertySets": [
+                "debug",
+                "token",
+                "env",
+                "help",
+                "quiet",
+                "version",
+                "disable-telemetry",
+                "output"
+            ],
             "definiteArgument": "test lib wizard appium",
             "settingsClass": {
                 "properties": []
@@ -3585,7 +4097,16 @@
         },
         {
             "postfix": "TestLibWizardEspresso",
-            "commonPropertySets": [],
+            "commonPropertySets": [
+                "debug",
+                "token",
+                "env",
+                "help",
+                "quiet",
+                "version",
+                "disable-telemetry",
+                "output"
+            ],
             "definiteArgument": "test lib wizard espresso",
             "settingsClass": {
                 "properties": []
@@ -3593,7 +4114,16 @@
         },
         {
             "postfix": "TestLibWizardUitest",
-            "commonPropertySets": [],
+            "commonPropertySets": [
+                "debug",
+                "token",
+                "env",
+                "help",
+                "quiet",
+                "version",
+                "disable-telemetry",
+                "output"
+            ],
             "definiteArgument": "test lib wizard uitest",
             "settingsClass": {
                 "properties": []
@@ -3601,7 +4131,16 @@
         },
         {
             "postfix": "TestLibWizardXcuitest",
-            "commonPropertySets": [],
+            "commonPropertySets": [
+                "debug",
+                "token",
+                "env",
+                "help",
+                "quiet",
+                "version",
+                "disable-telemetry",
+                "output"
+            ],
             "definiteArgument": "test lib wizard xcuitest",
             "settingsClass": {
                 "properties": []
@@ -3610,7 +4149,16 @@
         {
             "help": "Creates an artifacts directory with Appium tests.",
             "postfix": "TestPrepareAppium",
-            "commonPropertySets": [],
+            "commonPropertySets": [
+                "debug",
+                "token",
+                "env",
+                "help",
+                "quiet",
+                "version",
+                "disable-telemetry",
+                "output"
+            ],
             "definiteArgument": "test prepare appium",
             "settingsClass": {
                 "properties": []
@@ -3619,7 +4167,16 @@
         {
             "help": "Creates an artifacts directory with Calabash tests.\nRequired external tools:\n- Ruby \n- Gem xamarin-test-cloud",
             "postfix": "TestPrepareCalabash",
-            "commonPropertySets": [],
+            "commonPropertySets": [
+                "debug",
+                "token",
+                "env",
+                "help",
+                "quiet",
+                "version",
+                "disable-telemetry",
+                "output"
+            ],
             "definiteArgument": "test prepare calabash",
             "settingsClass": {
                 "properties": []
@@ -3628,7 +4185,16 @@
         {
             "help": "Creates an artifacts directory with Espresso tests.",
             "postfix": "TestPrepareEspresso",
-            "commonPropertySets": [],
+            "commonPropertySets": [
+                "debug",
+                "token",
+                "env",
+                "help",
+                "quiet",
+                "version",
+                "disable-telemetry",
+                "output"
+            ],
             "definiteArgument": "test prepare espresso",
             "settingsClass": {
                 "properties": []
@@ -3637,7 +4203,16 @@
         {
             "help": "Creates an artifacts directory with Xamarin UI Tests.\nRequired external tools:\n- .NET Framework on Windows, Mono Runtime on OS X\n- NuGet package Xamarin.UITests, version 2.0.1 or higher",
             "postfix": "TestPrepareUitest",
-            "commonPropertySets": [],
+            "commonPropertySets": [
+                "debug",
+                "token",
+                "env",
+                "help",
+                "quiet",
+                "version",
+                "disable-telemetry",
+                "output"
+            ],
             "definiteArgument": "test prepare uitest",
             "settingsClass": {
                 "properties": []
@@ -3646,7 +4221,16 @@
         {
             "help": "Creates an artifacts directory with XCUITest tests.",
             "postfix": "TestPrepareXcuitest",
-            "commonPropertySets": [],
+            "commonPropertySets": [
+                "debug",
+                "token",
+                "env",
+                "help",
+                "quiet",
+                "version",
+                "disable-telemetry",
+                "output"
+            ],
             "definiteArgument": "test prepare xcuitest",
             "settingsClass": {
                 "properties": []
@@ -3655,7 +4239,16 @@
         {
             "help": "Starts a test run with Appium tests.",
             "postfix": "TestRunAppium",
-            "commonPropertySets": [],
+            "commonPropertySets": [
+                "debug",
+                "token",
+                "env",
+                "help",
+                "quiet",
+                "version",
+                "disable-telemetry",
+                "output"
+            ],
             "definiteArgument": "test run appium",
             "settingsClass": {
                 "properties": []
@@ -3664,7 +4257,16 @@
         {
             "help": "Starts a test run with Calabash tests.\nRequired external tools:\n- Ruby \n- Gem xamarin-test-cloud",
             "postfix": "TestRunCalabash",
-            "commonPropertySets": [],
+            "commonPropertySets": [
+                "debug",
+                "token",
+                "env",
+                "help",
+                "quiet",
+                "version",
+                "disable-telemetry",
+                "output"
+            ],
             "definiteArgument": "test run calabash",
             "settingsClass": {
                 "properties": []
@@ -3673,7 +4275,16 @@
         {
             "help": "Starts a test run with Espresso tests.",
             "postfix": "TestRunEspresso",
-            "commonPropertySets": [],
+            "commonPropertySets": [
+                "debug",
+                "token",
+                "env",
+                "help",
+                "quiet",
+                "version",
+                "disable-telemetry",
+                "output"
+            ],
             "definiteArgument": "test run espresso",
             "settingsClass": {
                 "properties": []
@@ -3682,7 +4293,16 @@
         {
             "help": "Starts a test run with previously prepared artifacts.",
             "postfix": "TestRunManifest",
-            "commonPropertySets": [],
+            "commonPropertySets": [
+                "debug",
+                "token",
+                "env",
+                "help",
+                "quiet",
+                "version",
+                "disable-telemetry",
+                "output"
+            ],
             "definiteArgument": "test run manifest",
             "settingsClass": {
                 "properties": []
@@ -3691,7 +4311,16 @@
         {
             "help": "Starts a test run with Xamarin UI Tests.\nRequired external tools:\n- .NET Framework on Windows, Mono Runtime on OS X\n- NuGet package Xamarin.UITests, version 2.0.1 or higher",
             "postfix": "TestRunUitest",
-            "commonPropertySets": [],
+            "commonPropertySets": [
+                "debug",
+                "token",
+                "env",
+                "help",
+                "quiet",
+                "version",
+                "disable-telemetry",
+                "output"
+            ],
             "definiteArgument": "test run uitest",
             "settingsClass": {
                 "properties": []
@@ -3700,7 +4329,16 @@
         {
             "help": "Starts a test run with XCUITest tests.",
             "postfix": "TestRunXcuitest",
-            "commonPropertySets": [],
+            "commonPropertySets": [
+                "debug",
+                "token",
+                "env",
+                "help",
+                "quiet",
+                "version",
+                "disable-telemetry",
+                "output"
+            ],
             "definiteArgument": "test run xcuitest",
             "settingsClass": {
                 "properties": []
@@ -3709,7 +4347,16 @@
         {
             "help": "Checks the status of the started test run.",
             "postfix": "TestStatus",
-            "commonPropertySets": [],
+            "commonPropertySets": [
+                "debug",
+                "token",
+                "env",
+                "help",
+                "quiet",
+                "version",
+                "disable-telemetry",
+                "output"
+            ],
             "definiteArgument": "test status",
             "settingsClass": {
                 "properties": []
@@ -3718,7 +4365,16 @@
         {
             "help": "Stop the started test run.",
             "postfix": "TestStop",
-            "commonPropertySets": [],
+            "commonPropertySets": [
+                "debug",
+                "token",
+                "env",
+                "help",
+                "quiet",
+                "version",
+                "disable-telemetry",
+                "output"
+            ],
             "definiteArgument": "test stop",
             "settingsClass": {
                 "properties": []
@@ -3727,7 +4383,16 @@
         {
             "help": "Start a test run interactively. All the parameters will be prompted on-the-go.",
             "postfix": "TestWizard",
-            "commonPropertySets": [],
+            "commonPropertySets": [
+                "debug",
+                "token",
+                "env",
+                "help",
+                "quiet",
+                "version",
+                "disable-telemetry",
+                "output"
+            ],
             "definiteArgument": "test wizard",
             "settingsClass": {
                 "properties": []
@@ -3736,7 +4401,16 @@
         {
             "help": "Create a new API token",
             "postfix": "TokensCreate",
-            "commonPropertySets": [],
+            "commonPropertySets": [
+                "debug",
+                "token",
+                "env",
+                "help",
+                "quiet",
+                "version",
+                "disable-telemetry",
+                "output"
+            ],
             "definiteArgument": "tokens create",
             "settingsClass": {
                 "properties": []
@@ -3745,7 +4419,16 @@
         {
             "help": "Delete an API token",
             "postfix": "TokensDelete",
-            "commonPropertySets": [],
+            "commonPropertySets": [
+                "debug",
+                "token",
+                "env",
+                "help",
+                "quiet",
+                "version",
+                "disable-telemetry",
+                "output"
+            ],
             "definiteArgument": "tokens delete",
             "settingsClass": {
                 "properties": []
@@ -3754,7 +4437,16 @@
         {
             "help": "Get a list of API tokens",
             "postfix": "TokensList",
-            "commonPropertySets": [],
+            "commonPropertySets": [
+                "debug",
+                "token",
+                "env",
+                "help",
+                "quiet",
+                "version",
+                "disable-telemetry",
+                "output"
+            ],
             "definiteArgument": "tokens list",
             "settingsClass": {
                 "properties": []
