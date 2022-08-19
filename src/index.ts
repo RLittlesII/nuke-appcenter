@@ -62,8 +62,9 @@ const spec: nukeSchema = {
 };
 
 for(const command of commands){
-    var commonOptions = Object.values(command.options).filter(x => x.common);
-    
+    const commonCommandOptions = Object.values(command.options).filter(x => x.common);
+    const commonOptions = commonCommandOptions.filter((n, i) => commonCommandOptions.indexOf(n) === i);
+
     for(const option of commonOptions){
         spec.commonTaskPropertySets.push({
             name: option.longName,
